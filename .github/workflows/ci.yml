@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Tests (Node ${{ matrix.node }})
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: ['20', '22']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Run the test suite
+        run: npm test
+      - name: CLI smoke test
+        env:
+          VF_PASSWORD: ci-smoke-password
+        run: |
+          node bin/vaultfolder.mjs init ./smoke-vault
+          echo "smoke" > smoke.txt
+          node bin/vaultfolder.mjs add ./smoke-vault smoke.txt
+          node bin/vaultfolder.mjs list ./smoke-vault
+          node bin/vaultfolder.mjs get ./smoke-vault smoke.txt ./restored
+          grep -q smoke ./restored/smoke.txt

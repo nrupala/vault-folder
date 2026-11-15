@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vault Folder — zero-knowledge file vaults for any folder</title>
+<meta name="description" content="Turn any folder — a local drive, a file server, or the synced folder of Google Drive, OneDrive, Dropbox or iCloud — into an encrypted vault only you can read. Free, open source, zero dependencies.">
+<style>
+  :root { --ink:#e8ecf4; --dim:#9aa7bd; --bg:#0b0f16; --card:#121926; --line:#22304a; --accent:#e8b34b; --good:#7bc47f; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: ui-sans-system, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background:var(--bg); color:var(--ink); line-height:1.6; }
+  main { max-width: 880px; margin: 0 auto; padding: 48px 20px 64px; }
+  h1 { font-size: 2.6rem; margin: 0 0 8px; letter-spacing: -0.02em; }
+  h1 .accent { color: var(--accent); }
+  .tagline { font-size: 1.2rem; color: var(--dim); margin: 0 0 28px; }
+  .badges { display:flex; flex-wrap:wrap; gap:8px; margin-bottom: 32px; }
+  .badge { border:1px solid var(--line); background:var(--card); color:var(--ink); border-radius:999px; padding:4px 12px; font-size:0.85rem; }
+  .badge strong { color: var(--good); font-weight:600; }
+  h2 { font-size: 1.35rem; margin: 40px 0 12px; }
+  p { color: var(--ink); }
+  .dim { color: var(--dim); }
+  pre { background: var(--card); border:1px solid var(--line); border-radius:10px; padding:16px 18px; overflow-x:auto; font-size:0.92rem; line-height:1.55; }
+  code { font-family: ui-monospace, "Cascadia Mono", Consolas, monospace; }
+  pre code { color: var(--ink); }
+  .comment { color: var(--dim); }
+  .grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:14px; margin-top: 14px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px 18px; }
+  .card h3 { margin:0 0 6px; font-size:1rem; }
+  .card p { margin:0; color:var(--dim); font-size:0.95rem; }
+  a { color: var(--accent); }
+  .cta { display:flex; flex-wrap:wrap; gap:12px; margin: 28px 0 4px; }
+  .btn { display:inline-block; padding:10px 18px; border-radius:10px; border:1px solid var(--accent); color:var(--accent); text-decoration:none; font-weight:600; }
+  .btn.solid { background:var(--accent); color:#14100a; }
+  table { border-collapse: collapse; width:100%; margin-top: 12px; }
+  th, td { border:1px solid var(--line); padding:8px 12px; text-align:left; font-size:0.95rem; }
+  th { background: var(--card); }
+  footer { border-top:1px solid var(--line); margin-top:56px; padding-top:20px; color:var(--dim); font-size:0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Vault <span class="accent">Folder</span></h1>
+  <p class="tagline">Your files, encrypted before they ever leave your machine — in any folder, on any storage.</p>
+
+  <div class="badges">
+    <span class="badge"><strong>Free forever</strong></span>
+    <span class="badge">Apache License 2.0</span>
+    <span class="badge">Zero dependencies</span>
+    <span class="badge">No account · No telemetry</span>
+    <span class="badge">AES-256-GCM</span>
+  </div>
+
+  <p>Vault Folder turns an ordinary folder into a <strong>zero-knowledge vault</strong>.
+  Put the folder on your hard drive, a file server, a NAS — or inside the synced folder of
+  <strong>Google Drive, OneDrive, Dropbox, iCloud or Syncthing</strong> — and everything in it is
+  ciphertext before the sync client, the server, or the provider ever sees it.
+  They store it. Only you can read it.</p>
+
+  <div class="cta">
+    <a class="btn solid" href="https://github.com/nrupala/vault-folder">Get it on GitHub</a>
+    <a class="btn" href="https://github.com/nrupala/vault-folder/releases">Releases</a>
+  </div>
+
+  <h2>Quick start</h2>
+  <p class="dim">Requires Node.js 18+. There is nothing to install — no dependencies.</p>
+  <pre><code><span class="comment"># create a vault inside your cloud-synced folder</span>
+node bin/vaultfolder.mjs init  ~/Google\ Drive/MyVault
+
+<span class="comment"># add files</span>
+node bin/vaultfolder.mjs add   ~/Google\ Drive/MyVault  ~/Documents/taxes-2026.pdf
+
+<span class="comment"># names exist only inside the encrypted manifest</span>
+node bin/vaultfolder.mjs list  ~/Google\ Drive/MyVault
+
+<span class="comment"># restore a file</span>
+node bin/vaultfolder.mjs get   ~/Google\ Drive/MyVault  taxes-2026.pdf  ~/Restored</code></pre>
+  <p>On <code>init</code> you receive a <strong>recovery key</strong>, shown once and never stored.
+  Write it down. If you lose both your password and the recovery key, the vault cannot be
+  opened — by you, by us, or by anyone. That is the point, and it is also the price.</p>
+
+  <h2>How it works</h2>
+  <div class="grid">
+    <div class="card"><h3>Envelope encryption</h3><p>A random 256-bit vault key encrypts everything. It is wrapped twice — by your password (PBKDF2-SHA-256, 600,000 rounds) and by your recovery key — and never stored.</p></div>
+    <div class="card"><h3>A key per file</h3><p>Every file gets its own random key, wrapped by the vault key. One file's damage never touches another's.</p></div>
+    <div class="card"><h3>Tamper-evident chunks</h3><p>Contents are sealed in 4 MiB AES-256-GCM chunks, each bound to its position. Tampering, truncation and reordering fail loudly on read.</p></div>
+    <div class="card"><h3>Hidden names</h3><p>File names live only inside the encrypted manifest. The vault folder shows an outsider nothing but opaque ids.</p></div>
+  </div>
+  <p class="dim">The full byte-level format is specified in the repository's FORMAT.md — anyone can write an independent reader.</p>
+
+  <h2>What the provider can still see</h2>
+  <p>Honesty over pitch: whoever holds your vault can see <em>that</em> a vault exists, roughly
+  <em>how much</em> ciphertext it holds, and <em>when</em> it changes. They cannot see file names,
+  file contents, or what any file is.</p>
+
+  <h2>Faces &amp; readiness</h2>
+  <table>
+    <tr><th>Face</th><th>Status</th></tr>
+    <tr><td>Engine + CLI (Node.js, zero-dependency)</td><td><strong>Shipped — v0.1.0</strong></td></tr>
+    <tr><td>This page</td><td><strong>Live</strong></td></tr>
+    <tr><td>Desktop app · Web app · Android app</td><td>Roadmap</td></tr>
+    <tr><td>Sharing files with other people</td><td>Not a goal — this is a personal vault</td></tr>
+  </table>
+
+  <footer>
+    <p>Vault Folder is a free gift to the world from <strong>2351485 ALBERTA INC. (AIMLDS)</strong>,
+    the makers of Vault Tracker — built on the same zero-trust engine, pointed at your files.
+    Licensed under the <a href="https://github.com/nrupala/vault-folder/blob/main/LICENSE">Apache License 2.0</a>.
+    Support: <a href="mailto:info@aimlds.org">info@aimlds.org</a>.</p>
+    <p>© 2026 2351485 ALBERTA INC. (AIMLDS)</p>
+  </footer>
+</main>
+</body>
+</html>

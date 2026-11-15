@@ -1,0 +1,8 @@
+node_modules/
+*.log
+.DS_Store
+# never commit a real vault
+*.vf
+vault.json
+index.enc
+objects/

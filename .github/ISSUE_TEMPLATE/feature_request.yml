@@ -1,0 +1,25 @@
+name: Feature request
+description: Suggest an improvement to Vault Folder.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Two house rules shape what gets built: **zero dependencies** (Node.js
+        standard library only) and **personal vaults only** (no multi-user
+        sharing). Requests inside those lines are very welcome.
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What are you trying to do that Vault Folder makes hard today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Your proposal
+      description: What should it do instead?
+    validations:
+      required: true

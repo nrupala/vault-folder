@@ -1,0 +1,33 @@
+name: Bug report
+description: Something in Vault Folder did not work as it should.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. **Never attach real vault contents, real file
+        names from a vault you care about, your password, or your recovery
+        key.** Reproduce with a throwaway vault instead.
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Output of `node --version` and the Vault Folder release you used.
+      placeholder: "vault-folder 0.1.0, Node 22.x"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you ran, what you expected, and what happened instead (paste the exact error message).
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: The smallest sequence of commands that shows the problem, using a throwaway vault.
+    validations:
+      required: true

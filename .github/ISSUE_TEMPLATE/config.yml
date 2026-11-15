@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security reports
+    url: mailto:info@aimlds.org?subject=SECURITY%3A%20vault-folder
+    about: Report vulnerabilities by email — never post real vault contents, passwords, or recovery keys anywhere.
+  - name: Product page
+    url: https://nrupala.github.io/vault-folder/
+    about: What Vault Folder is and how it works.
