@@ -1,0 +1,7414 @@
+{
+  "schema_version": "2.0",
+  "profile_id": "code",
+  "profile_version": "1.0.0",
+  "graph_class": "truths",
+  "provenance_summary": {
+    "extracted_truth": 478
+  },
+  "nodes": [
+    {
+      "id": "external::(await fsp.readdir(objectsDir(dir))).filter",
+      "kind": "external",
+      "label": "(await fsp.readdir(objectsDir(dir))).filter",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::(n / 1024 ** 2).toFixed",
+      "kind": "external",
+      "label": "(n / 1024 ** 2).toFixed",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::(n / 1024 ** 3).toFixed",
+      "kind": "external",
+      "label": "(n / 1024 ** 3).toFixed",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::(n / 1024).toFixed",
+      "kind": "external",
+      "label": "(n / 1024).toFixed",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::B32_ALPHABET.indexOf",
+      "kind": "external",
+      "label": "B32_ALPHABET.indexOf",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Buffer.alloc",
+      "kind": "external",
+      "label": "Buffer.alloc",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Buffer.concat",
+      "kind": "external",
+      "label": "Buffer.concat",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Buffer.from",
+      "kind": "external",
+      "label": "Buffer.from",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Buffer.from(buf).toString",
+      "kind": "external",
+      "label": "Buffer.from(buf).toString",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Date",
+      "kind": "external",
+      "label": "Date",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::JSON.parse",
+      "kind": "external",
+      "label": "JSON.parse",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::JSON.stringify",
+      "kind": "external",
+      "label": "JSON.stringify",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::MAGIC.copy",
+      "kind": "external",
+      "label": "MAGIC.copy",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Math.ceil",
+      "kind": "external",
+      "label": "Math.ceil",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Math.max",
+      "kind": "external",
+      "label": "Math.max",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Math.min",
+      "kind": "external",
+      "label": "Math.min",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Object.entries",
+      "kind": "external",
+      "label": "Object.entries",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Object.entries(session.manifest.entries)\n    .map",
+      "kind": "external",
+      "label": "Object.entries(session.manifest.entries)\n    .map",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Object.entries(session.manifest.entries)\n    .map(([id, e]) => ({ id, ...e }))\n    .sort",
+      "kind": "external",
+      "label": "Object.entries(session.manifest.entries)\n    .map(([id, e]) => ({ id, ...e }))\n    .sort",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::Promise",
+      "kind": "external",
+      "label": "Promise",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::String",
+      "kind": "external",
+      "label": "String",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::String(str).toUpperCase",
+      "kind": "external",
+      "label": "String(str).toUpperCase",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::String(str).toUpperCase().replace",
+      "kind": "external",
+      "label": "String(str).toUpperCase().replace",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::a.name.localeCompare",
+      "kind": "external",
+      "label": "a.name.localeCompare",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::assert.deepEqual",
+      "kind": "external",
+      "label": "assert.deepEqual",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::assert.equal",
+      "kind": "external",
+      "label": "assert.equal",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::assert.ok",
+      "kind": "external",
+      "label": "assert.ok",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::assert.rejects",
+      "kind": "external",
+      "label": "assert.rejects",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::buf.subarray",
+      "kind": "external",
+      "label": "buf.subarray",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::bytes.includes",
+      "kind": "external",
+      "label": "bytes.includes",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::check.toString",
+      "kind": "external",
+      "label": "check.toString",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::cipher.final",
+      "kind": "external",
+      "label": "cipher.final",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::cipher.getAuthTag",
+      "kind": "external",
+      "label": "cipher.getAuthTag",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::cipher.setAAD",
+      "kind": "external",
+      "label": "cipher.setAAD",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::cipher.update",
+      "kind": "external",
+      "label": "cipher.update",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::console.error",
+      "kind": "external",
+      "label": "console.error",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::console.log",
+      "kind": "external",
+      "label": "console.log",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::createCipheriv",
+      "kind": "external",
+      "label": "createCipheriv",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::createDecipheriv",
+      "kind": "external",
+      "label": "createDecipheriv",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::ctWithTag.subarray",
+      "kind": "external",
+      "label": "ctWithTag.subarray",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::data.split",
+      "kind": "external",
+      "label": "data.split",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::data.split('\\n')[0].trim",
+      "kind": "external",
+      "label": "data.split('\\n')[0].trim",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::decipher.final",
+      "kind": "external",
+      "label": "decipher.final",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::decipher.setAAD",
+      "kind": "external",
+      "label": "decipher.setAAD",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::decipher.setAuthTag",
+      "kind": "external",
+      "label": "decipher.setAuthTag",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::decipher.update",
+      "kind": "external",
+      "label": "decipher.update",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::dst.close",
+      "kind": "external",
+      "label": "dst.close",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::dst.write",
+      "kind": "external",
+      "label": "dst.write",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::e.isDirectory",
+      "kind": "external",
+      "label": "e.isDirectory",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::f.endsWith",
+      "kind": "external",
+      "label": "f.endsWith",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::files.indexOf",
+      "kind": "external",
+      "label": "files.indexOf",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::files.splice",
+      "kind": "external",
+      "label": "files.splice",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::fsp.access",
+      "kind": "external",
+      "label": "fsp.access",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::fsp.mkdir",
+      "kind": "external",
+      "label": "fsp.mkdir",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::fsp.mkdtemp",
+      "kind": "external",
+      "label": "fsp.mkdtemp",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::fsp.open",
+      "kind": "external",
+      "label": "fsp.open",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::fsp.readFile",
+      "kind": "external",
+      "label": "fsp.readFile",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::fsp.readdir",
+      "kind": "external",
+      "label": "fsp.readdir",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::fsp.rm",
+      "kind": "external",
+      "label": "fsp.rm",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::fsp.stat",
+      "kind": "external",
+      "label": "fsp.stat",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::fsp.unlink",
+      "kind": "external",
+      "label": "fsp.unlink",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::fsp.unlink(objectPath(session.dir, entry.id)).catch",
+      "kind": "external",
+      "label": "fsp.unlink(objectPath(session.dir, entry.id)).catch",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::fsp.writeFile",
+      "kind": "external",
+      "label": "fsp.writeFile",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::head.readUInt32BE",
+      "kind": "external",
+      "label": "head.readUInt32BE",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::head.subarray",
+      "kind": "external",
+      "label": "head.subarray",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::head.subarray(0, 4).equals",
+      "kind": "external",
+      "label": "head.subarray(0, 4).equals",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::head.writeUInt32BE",
+      "kind": "external",
+      "label": "head.writeUInt32BE",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::humanSize(e.size).padStart",
+      "kind": "external",
+      "label": "humanSize(e.size).padStart",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::lenBuf.writeUInt32BE",
+      "kind": "external",
+      "label": "lenBuf.writeUInt32BE",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::listEntries(session).filter",
+      "kind": "external",
+      "label": "listEntries(session).filter",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::listEntries(session).find",
+      "kind": "external",
+      "label": "listEntries(session).find",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::main().catch",
+      "kind": "external",
+      "label": "main().catch",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::meta.readUInt32BE",
+      "kind": "external",
+      "label": "meta.readUInt32BE",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::meta.subarray",
+      "kind": "external",
+      "label": "meta.subarray",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::n.includes",
+      "kind": "external",
+      "label": "n.includes",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::names.push",
+      "kind": "external",
+      "label": "names.push",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::names.some",
+      "kind": "external",
+      "label": "names.some",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::new Date().toISOString",
+      "kind": "external",
+      "label": "new Date().toISOString",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::node:assert/strict",
+      "kind": "external",
+      "label": "node:assert/strict",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::node:crypto",
+      "kind": "external",
+      "label": "node:crypto",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::node:fs",
+      "kind": "external",
+      "label": "node:fs",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::node:os",
+      "kind": "external",
+      "label": "node:os",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::node:path",
+      "kind": "external",
+      "label": "node:path",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::node:test",
+      "kind": "external",
+      "label": "node:test",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::node:util",
+      "kind": "external",
+      "label": "node:util",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::os.tmpdir",
+      "kind": "external",
+      "label": "os.tmpdir",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::out.push",
+      "kind": "external",
+      "label": "out.push",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::path.join",
+      "kind": "external",
+      "label": "path.join",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::path.resolve",
+      "kind": "external",
+      "label": "path.resolve",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::plain.toString",
+      "kind": "external",
+      "label": "plain.toString",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::process.argv.slice",
+      "kind": "external",
+      "label": "process.argv.slice",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::process.exit",
+      "kind": "external",
+      "label": "process.exit",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::process.stderr.write",
+      "kind": "external",
+      "label": "process.stderr.write",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::process.stdin.on",
+      "kind": "external",
+      "label": "process.stdin.on",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::process.stdin.setEncoding",
+      "kind": "external",
+      "label": "process.stdin.setEncoding",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::randomBytes",
+      "kind": "external",
+      "label": "randomBytes",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::randomBytes(16).toString",
+      "kind": "external",
+      "label": "randomBytes(16).toString",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::rawBase32.match",
+      "kind": "external",
+      "label": "rawBase32.match",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::rawBase32.match(/.{1,4}/g).join",
+      "kind": "external",
+      "label": "rawBase32.match(/.{1,4}/g).join",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::recoveryKey.replaceAll",
+      "kind": "external",
+      "label": "recoveryKey.replaceAll",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::recoveryKey.replaceAll('-', ' ').toLowerCase",
+      "kind": "external",
+      "label": "recoveryKey.replaceAll('-', ' ').toLowerCase",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::resolve",
+      "kind": "external",
+      "label": "resolve",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::rest.filter",
+      "kind": "external",
+      "label": "rest.filter",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::rest.includes",
+      "kind": "external",
+      "label": "rest.includes",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::src.close",
+      "kind": "external",
+      "label": "src.close",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::src.read",
+      "kind": "external",
+      "label": "src.read",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::src.stat",
+      "kind": "external",
+      "label": "src.stat",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::stat.isFile",
+      "kind": "external",
+      "label": "stat.isFile",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::stat.mtime.toISOString",
+      "kind": "external",
+      "label": "stat.mtime.toISOString",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::stdin.on",
+      "kind": "external",
+      "label": "stdin.on",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::stdin.pause",
+      "kind": "external",
+      "label": "stdin.pause",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::stdin.removeListener",
+      "kind": "external",
+      "label": "stdin.removeListener",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::stdin.resume",
+      "kind": "external",
+      "label": "stdin.resume",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::stdin.setEncoding",
+      "kind": "external",
+      "label": "stdin.setEncoding",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::stdin.setRawMode",
+      "kind": "external",
+      "label": "stdin.setRawMode",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::super",
+      "kind": "external",
+      "label": "super",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::t.after",
+      "kind": "external",
+      "label": "t.after",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::test",
+      "kind": "external",
+      "label": "test",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::value.slice",
+      "kind": "external",
+      "label": "value.slice",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::wrapped.ct.copy",
+      "kind": "external",
+      "label": "wrapped.ct.copy",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::wrapped.nonce.copy",
+      "kind": "external",
+      "label": "wrapped.nonce.copy",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder",
+      "kind": "package",
+      "label": "vault-folder",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::/CHANGELOG.md",
+      "kind": "file",
+      "label": "CHANGELOG.md",
+      "loc": {
+        "file": "CHANGELOG.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::/CONTRIBUTING.md",
+      "kind": "file",
+      "label": "CONTRIBUTING.md",
+      "loc": {
+        "file": "CONTRIBUTING.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::/FORMAT.md",
+      "kind": "file",
+      "label": "FORMAT.md",
+      "loc": {
+        "file": "FORMAT.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::/README.md",
+      "kind": "file",
+      "label": "README.md",
+      "loc": {
+        "file": "README.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::/SECURITY.md",
+      "kind": "file",
+      "label": "SECURITY.md",
+      "loc": {
+        "file": "SECURITY.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::/bin/vaultfolder.mjs",
+      "kind": "file",
+      "label": "bin/vaultfolder.mjs",
+      "loc": {
+        "file": "bin/vaultfolder.mjs",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::/src/vault.mjs",
+      "kind": "file",
+      "label": "src/vault.mjs",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::/test/vault.test.mjs",
+      "kind": "file",
+      "label": "test/vault.test.mjs",
+      "loc": {
+        "file": "test/vault.test.mjs",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::CHANGELOG",
+      "kind": "module",
+      "label": "vault-folder::CHANGELOG",
+      "loc": {
+        "file": "CHANGELOG.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::CHANGELOG::CHANGELOG",
+      "kind": "doc",
+      "label": "CHANGELOG",
+      "loc": {
+        "file": "CHANGELOG.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::CONTRIBUTING",
+      "kind": "module",
+      "label": "vault-folder::CONTRIBUTING",
+      "loc": {
+        "file": "CONTRIBUTING.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::CONTRIBUTING::CONTRIBUTING",
+      "kind": "doc",
+      "label": "CONTRIBUTING",
+      "loc": {
+        "file": "CONTRIBUTING.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::FORMAT",
+      "kind": "module",
+      "label": "vault-folder::FORMAT",
+      "loc": {
+        "file": "FORMAT.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::FORMAT::FORMAT",
+      "kind": "doc",
+      "label": "FORMAT",
+      "loc": {
+        "file": "FORMAT.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::README",
+      "kind": "module",
+      "label": "vault-folder::README",
+      "loc": {
+        "file": "README.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::README::README",
+      "kind": "doc",
+      "label": "README",
+      "loc": {
+        "file": "README.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::SECURITY",
+      "kind": "module",
+      "label": "vault-folder::SECURITY",
+      "loc": {
+        "file": "SECURITY.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::SECURITY::SECURITY",
+      "kind": "doc",
+      "label": "SECURITY",
+      "loc": {
+        "file": "SECURITY.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::bin::vaultfolder.mjs",
+      "kind": "module",
+      "label": "vault-folder::bin::vaultfolder.mjs",
+      "loc": {
+        "file": "bin/vaultfolder.mjs",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::bin::vaultfolder.mjs::getPassword",
+      "kind": "function",
+      "label": "getPassword",
+      "loc": {
+        "file": "bin/vaultfolder.mjs",
+        "line": 61
+      },
+      "tier": "optional",
+      "defines": [
+        "confirm",
+        "pw",
+        "again"
+      ],
+      "refs": [
+        "process",
+        "promptSecret",
+        "VaultError"
+      ],
+      "end_line": 70,
+      "signature": "async function getPassword(confirm = false)",
+      "decisions": 4
+    },
+    {
+      "id": "vault-folder::bin::vaultfolder.mjs::humanSize",
+      "kind": "function",
+      "label": "humanSize",
+      "loc": {
+        "file": "bin/vaultfolder.mjs",
+        "line": 81
+      },
+      "tier": "optional",
+      "defines": [
+        "n"
+      ],
+      "refs": [],
+      "end_line": 86,
+      "signature": "function humanSize(n)",
+      "decisions": 3
+    },
+    {
+      "id": "vault-folder::bin::vaultfolder.mjs::main",
+      "kind": "function",
+      "label": "main",
+      "loc": {
+        "file": "bin/vaultfolder.mjs",
+        "line": 88
+      },
+      "tier": "optional",
+      "defines": [
+        "cmd",
+        "rest",
+        "useRecovery",
+        "args",
+        "a",
+        "dir",
+        "pw",
+        "files",
+        "name",
+        "nameIdx",
+        "session",
+        "entry",
+        "entries",
+        "ref",
+        "outDir",
+        "e",
+        "outName",
+        "outPath",
+        "done",
+        "s"
+      ],
+      "refs": [
+        "process",
+        "VaultError",
+        "getPassword",
+        "createVault",
+        "console",
+        "path",
+        "recoveryKey",
+        "unlock",
+        "f",
+        "addFile",
+        "humanSize",
+        "listEntries",
+        "fsp",
+        "extractFile",
+        "removeFile",
+        "vaultStatus"
+      ],
+      "end_line": 164,
+      "signature": "async function main()",
+      "decisions": 27
+    },
+    {
+      "id": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+      "kind": "function",
+      "label": "promptSecret",
+      "loc": {
+        "file": "bin/vaultfolder.mjs",
+        "line": 25
+      },
+      "tier": "optional",
+      "defines": [
+        "label",
+        "resolve",
+        "reject",
+        "data",
+        "d",
+        "stdin",
+        "value",
+        "onData",
+        "ch"
+      ],
+      "refs": [
+        "Promise",
+        "process"
+      ],
+      "end_line": 59,
+      "signature": "function promptSecret(label)",
+      "decisions": 6
+    },
+    {
+      "id": "vault-folder::bin::vaultfolder.mjs::unlock",
+      "kind": "function",
+      "label": "unlock",
+      "loc": {
+        "file": "bin/vaultfolder.mjs",
+        "line": 72
+      },
+      "tier": "optional",
+      "defines": [
+        "dir",
+        "useRecovery",
+        "rec"
+      ],
+      "refs": [
+        "process",
+        "promptSecret",
+        "VaultError",
+        "unlockWithRecovery",
+        "unlockWithPassword",
+        "getPassword"
+      ],
+      "end_line": 79,
+      "signature": "async function unlock(dir, useRecovery)",
+      "decisions": 3
+    },
+    {
+      "id": "vault-folder::src::vault.mjs",
+      "kind": "module",
+      "label": "vault-folder::src::vault.mjs",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::B32_ALPHABET",
+      "kind": "variable",
+      "label": "B32_ALPHABET",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 74
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 74,
+      "signature": "B32_ALPHABET"
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::DEFAULT_CHUNK_SIZE",
+      "kind": "variable",
+      "label": "DEFAULT_CHUNK_SIZE",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 27
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 27,
+      "signature": "DEFAULT_CHUNK_SIZE"
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::FORMAT_VERSION",
+      "kind": "variable",
+      "label": "FORMAT_VERSION",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 25
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 25,
+      "signature": "FORMAT_VERSION"
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::KDF_ITERATIONS",
+      "kind": "variable",
+      "label": "KDF_ITERATIONS",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 26
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 26,
+      "signature": "KDF_ITERATIONS"
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::MAGIC",
+      "kind": "variable",
+      "label": "MAGIC",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 29
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "Buffer"
+      ],
+      "end_line": 29,
+      "signature": "MAGIC"
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::VERIFIER_PLAINTEXT",
+      "kind": "variable",
+      "label": "VERIFIER_PLAINTEXT",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 28
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 28,
+      "signature": "VERIFIER_PLAINTEXT"
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::VaultError",
+      "kind": "class",
+      "label": "VaultError",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 32
+      },
+      "tier": "recommended",
+      "defines": [],
+      "refs": [],
+      "end_line": 38,
+      "signature": "class VaultError extends Error"
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::VaultError::constructor",
+      "kind": "method",
+      "label": "constructor",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 33
+      },
+      "tier": "optional",
+      "defines": [
+        "code",
+        "message"
+      ],
+      "refs": [],
+      "end_line": 37,
+      "signature": "constructor(code, message)",
+      "decisions": 0
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::WRAP_AAD",
+      "kind": "variable",
+      "label": "WRAP_AAD",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 30
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "Buffer"
+      ],
+      "end_line": 30,
+      "signature": "WRAP_AAD"
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::addFile",
+      "kind": "function",
+      "label": "addFile",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 263
+      },
+      "tier": "optional",
+      "defines": [
+        "session",
+        "filePath",
+        "name",
+        "stat",
+        "chunkSize",
+        "id",
+        "fk",
+        "wrapped",
+        "chunks",
+        "src",
+        "dst",
+        "head",
+        "off",
+        "buf",
+        "i",
+        "want",
+        "lenBuf"
+      ],
+      "refs": [
+        "fsp",
+        "VaultError",
+        "header",
+        "randomBytes",
+        "gcmEncrypt",
+        "vk",
+        "Buffer",
+        "Math",
+        "objectPath",
+        "dir",
+        "MAGIC",
+        "bytesRead",
+        "ct",
+        "nonce",
+        "Date",
+        "saveManifest"
+      ],
+      "end_line": 310,
+      "signature": "async function addFile(session, filePath, name = path.basename(filePath))",
+      "decisions": 2
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::b64",
+      "kind": "variable",
+      "label": "b64",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 42
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "Buffer"
+      ],
+      "end_line": 42,
+      "signature": "b64"
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::base32Decode",
+      "kind": "function",
+      "label": "base32Decode",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 92
+      },
+      "tier": "optional",
+      "defines": [
+        "str",
+        "clean",
+        "bits",
+        "value",
+        "out"
+      ],
+      "refs": [
+        "String",
+        "ch",
+        "B32_ALPHABET",
+        "Buffer"
+      ],
+      "end_line": 106,
+      "signature": "function base32Decode(str)",
+      "decisions": 2
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::base32Encode",
+      "kind": "function",
+      "label": "base32Encode",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 76
+      },
+      "tier": "optional",
+      "defines": [
+        "buf",
+        "bits",
+        "value",
+        "out"
+      ],
+      "refs": [
+        "byte",
+        "B32_ALPHABET"
+      ],
+      "end_line": 90,
+      "signature": "function base32Encode(buf)",
+      "decisions": 3
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::createVault",
+      "kind": "function",
+      "label": "createVault",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 162
+      },
+      "tier": "optional",
+      "defines": [
+        "dir",
+        "password",
+        "opts",
+        "chunkSize",
+        "salt",
+        "kek",
+        "vk",
+        "wrapPassword",
+        "recoveryRaw",
+        "recoverySalt",
+        "recoveryKek",
+        "wrapRecovery",
+        "verifier",
+        "header",
+        "session"
+      ],
+      "refs": [
+        "VaultError",
+        "fsp",
+        "headerPath",
+        "e",
+        "objectsDir",
+        "DEFAULT_CHUNK_SIZE",
+        "randomBytes",
+        "deriveKek",
+        "KDF_ITERATIONS",
+        "gcmEncrypt",
+        "WRAP_AAD",
+        "base32Encode",
+        "Buffer",
+        "VERIFIER_PLAINTEXT",
+        "FORMAT_VERSION",
+        "Date",
+        "b64",
+        "JSON",
+        "saveManifest",
+        "formatRecoveryKey"
+      ],
+      "end_line": 204,
+      "signature": "async function createVault(dir, password, opts = {})",
+      "decisions": 4
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::deriveKek",
+      "kind": "function",
+      "label": "deriveKek",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 45
+      },
+      "tier": "optional",
+      "defines": [
+        "secret",
+        "salt",
+        "iterations"
+      ],
+      "refs": [
+        "pbkdf2Async"
+      ],
+      "end_line": 47,
+      "signature": "async function deriveKek(secret, salt, iterations)",
+      "decisions": 0
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::extractFile",
+      "kind": "function",
+      "label": "extractFile",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 313
+      },
+      "tier": "optional",
+      "defines": [
+        "session",
+        "ref",
+        "outPath",
+        "entry",
+        "src",
+        "stat",
+        "headLen",
+        "head",
+        "wrapNonce",
+        "wrapCt",
+        "chunkSize",
+        "chunks",
+        "fk",
+        "dst",
+        "pos",
+        "i",
+        "meta",
+        "nonce",
+        "len",
+        "ct",
+        "plain"
+      ],
+      "refs": [
+        "resolveEntry",
+        "fsp",
+        "objectPath",
+        "dir",
+        "Buffer",
+        "MAGIC",
+        "VaultError",
+        "gcmDecrypt",
+        "vk"
+      ],
+      "end_line": 357,
+      "signature": "async function extractFile(session, ref, outPath)",
+      "decisions": 4
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::formatRecoveryKey",
+      "kind": "function",
+      "label": "formatRecoveryKey",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 108
+      },
+      "tier": "optional",
+      "defines": [
+        "rawBase32"
+      ],
+      "refs": [],
+      "end_line": 110,
+      "signature": "function formatRecoveryKey(rawBase32)",
+      "decisions": 0
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::gcmDecrypt",
+      "kind": "function",
+      "label": "gcmDecrypt",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 58
+      },
+      "tier": "optional",
+      "defines": [
+        "key",
+        "nonce",
+        "ctWithTag",
+        "aad",
+        "tag",
+        "body",
+        "decipher"
+      ],
+      "refs": [
+        "VaultError",
+        "createDecipheriv",
+        "Buffer"
+      ],
+      "end_line": 70,
+      "signature": "function gcmDecrypt(key, nonce, ctWithTag, aad)",
+      "decisions": 3
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::gcmEncrypt",
+      "kind": "function",
+      "label": "gcmEncrypt",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 50
+      },
+      "tier": "optional",
+      "defines": [
+        "key",
+        "plaintext",
+        "aad",
+        "nonce",
+        "cipher",
+        "body"
+      ],
+      "refs": [
+        "randomBytes",
+        "createCipheriv",
+        "Buffer"
+      ],
+      "end_line": 56,
+      "signature": "function gcmEncrypt(key, plaintext, aad)",
+      "decisions": 1
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::headerPath",
+      "kind": "variable",
+      "label": "headerPath",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 118
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "path"
+      ],
+      "end_line": 118,
+      "signature": "headerPath"
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::listEntries",
+      "kind": "function",
+      "label": "listEntries",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 246
+      },
+      "tier": "optional",
+      "defines": [
+        "session",
+        "id",
+        "e",
+        "a",
+        "b"
+      ],
+      "refs": [
+        "Object"
+      ],
+      "end_line": 250,
+      "signature": "function listEntries(session)",
+      "decisions": 0
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::loadManifest",
+      "kind": "function",
+      "label": "loadManifest",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 145
+      },
+      "tier": "optional",
+      "defines": [
+        "dir",
+        "vk",
+        "doc",
+        "plain"
+      ],
+      "refs": [
+        "JSON",
+        "fsp",
+        "manifestPath",
+        "VaultError",
+        "gcmDecrypt",
+        "unb64",
+        "Buffer"
+      ],
+      "end_line": 154,
+      "signature": "async function loadManifest(dir, vk)",
+      "decisions": 1
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::manifestPath",
+      "kind": "variable",
+      "label": "manifestPath",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 119
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "path"
+      ],
+      "end_line": 119,
+      "signature": "manifestPath"
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::normalizeRecoveryKey",
+      "kind": "function",
+      "label": "normalizeRecoveryKey",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 112
+      },
+      "tier": "optional",
+      "defines": [
+        "input"
+      ],
+      "refs": [
+        "base32Encode",
+        "base32Decode"
+      ],
+      "end_line": 114,
+      "signature": "function normalizeRecoveryKey(input)",
+      "decisions": 0
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::objectPath",
+      "kind": "variable",
+      "label": "objectPath",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 121
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "path",
+        "objectsDir"
+      ],
+      "end_line": 121,
+      "signature": "objectPath"
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::objectsDir",
+      "kind": "variable",
+      "label": "objectsDir",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 120
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "path"
+      ],
+      "end_line": 120,
+      "signature": "objectsDir"
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::pbkdf2Async",
+      "kind": "variable",
+      "label": "pbkdf2Async",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 23
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "promisify",
+        "pbkdf2"
+      ],
+      "end_line": 23,
+      "signature": "pbkdf2Async"
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::readHeader",
+      "kind": "function",
+      "label": "readHeader",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 123
+      },
+      "tier": "optional",
+      "defines": [
+        "dir",
+        "raw",
+        "header"
+      ],
+      "refs": [
+        "fsp",
+        "headerPath",
+        "VaultError",
+        "JSON",
+        "FORMAT_VERSION"
+      ],
+      "end_line": 136,
+      "signature": "async function readHeader(dir)",
+      "decisions": 3
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::removeFile",
+      "kind": "function",
+      "label": "removeFile",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 360
+      },
+      "tier": "optional",
+      "defines": [
+        "session",
+        "ref",
+        "entry"
+      ],
+      "refs": [
+        "resolveEntry",
+        "fsp",
+        "objectPath",
+        "saveManifest"
+      ],
+      "end_line": 366,
+      "signature": "async function removeFile(session, ref)",
+      "decisions": 0
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::resolveEntry",
+      "kind": "function",
+      "label": "resolveEntry",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 252
+      },
+      "tier": "optional",
+      "defines": [
+        "session",
+        "ref",
+        "matches",
+        "e"
+      ],
+      "refs": [
+        "listEntries",
+        "VaultError"
+      ],
+      "end_line": 260,
+      "signature": "function resolveEntry(session, ref)",
+      "decisions": 3
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::saveManifest",
+      "kind": "function",
+      "label": "saveManifest",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 138
+      },
+      "tier": "optional",
+      "defines": [
+        "session",
+        "plain",
+        "doc"
+      ],
+      "refs": [
+        "Buffer",
+        "JSON",
+        "gcmEncrypt",
+        "b64",
+        "nonce",
+        "ct",
+        "fsp",
+        "manifestPath"
+      ],
+      "end_line": 143,
+      "signature": "async function saveManifest(session)",
+      "decisions": 0
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::unb64",
+      "kind": "variable",
+      "label": "unb64",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 43
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "Buffer"
+      ],
+      "end_line": 43,
+      "signature": "unb64"
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::unlockWithKek",
+      "kind": "function",
+      "label": "unlockWithKek",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 206
+      },
+      "tier": "optional",
+      "defines": [
+        "dir",
+        "header",
+        "kek",
+        "vk",
+        "check",
+        "manifest"
+      ],
+      "refs": [
+        "gcmDecrypt",
+        "unb64",
+        "WRAP_AAD",
+        "VaultError",
+        "VERIFIER_PLAINTEXT",
+        "loadManifest"
+      ],
+      "end_line": 219,
+      "signature": "async function unlockWithKek(dir, header, kek)",
+      "decisions": 2
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::unlockWithPassword",
+      "kind": "function",
+      "label": "unlockWithPassword",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 221
+      },
+      "tier": "optional",
+      "defines": [
+        "dir",
+        "password",
+        "header",
+        "kek"
+      ],
+      "refs": [
+        "readHeader",
+        "deriveKek",
+        "unb64",
+        "unlockWithKek"
+      ],
+      "end_line": 225,
+      "signature": "async function unlockWithPassword(dir, password)",
+      "decisions": 0
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::unlockWithRecovery",
+      "kind": "function",
+      "label": "unlockWithRecovery",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 227
+      },
+      "tier": "optional",
+      "defines": [
+        "dir",
+        "recoveryKey",
+        "header",
+        "normalized",
+        "recKek",
+        "shim"
+      ],
+      "refs": [
+        "readHeader",
+        "normalizeRecoveryKey",
+        "deriveKek",
+        "unb64",
+        "unlockWithKek"
+      ],
+      "end_line": 234,
+      "signature": "async function unlockWithRecovery(dir, recoveryKey)",
+      "decisions": 0
+    },
+    {
+      "id": "vault-folder::src::vault.mjs::vaultStatus",
+      "kind": "function",
+      "label": "vaultStatus",
+      "loc": {
+        "file": "src/vault.mjs",
+        "line": 237
+      },
+      "tier": "optional",
+      "defines": [
+        "dir",
+        "header",
+        "objects",
+        "f"
+      ],
+      "refs": [
+        "readHeader",
+        "fsp",
+        "objectsDir"
+      ],
+      "end_line": 244,
+      "signature": "async function vaultStatus(dir)",
+      "decisions": 1
+    },
+    {
+      "id": "vault-folder::test::vault.test.mjs",
+      "kind": "module",
+      "label": "vault-folder::test::vault.test.mjs",
+      "loc": {
+        "file": "test/vault.test.mjs",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::test::vault.test.mjs::CHUNK",
+      "kind": "variable",
+      "label": "CHUNK",
+      "loc": {
+        "file": "test/vault.test.mjs",
+        "line": 13
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 13,
+      "signature": "CHUNK"
+    },
+    {
+      "id": "vault-folder::test::vault.test.mjs::PW",
+      "kind": "variable",
+      "label": "PW",
+      "loc": {
+        "file": "test/vault.test.mjs",
+        "line": 12
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 12,
+      "signature": "PW"
+    },
+    {
+      "id": "vault-folder::test::vault.test.mjs::a",
+      "kind": "variable",
+      "label": "a",
+      "loc": {
+        "file": "test/vault.test.mjs",
+        "line": 45
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "unlockWithRecovery",
+        "dir",
+        "recoveryKey"
+      ],
+      "end_line": 45,
+      "signature": "a"
+    },
+    {
+      "id": "vault-folder::test::vault.test.mjs::b",
+      "kind": "variable",
+      "label": "b",
+      "loc": {
+        "file": "test/vault.test.mjs",
+        "line": 47
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "unlockWithRecovery",
+        "dir",
+        "recoveryKey"
+      ],
+      "end_line": 47,
+      "signature": "b"
+    },
+    {
+      "id": "vault-folder::test::vault.test.mjs::bytes",
+      "kind": "variable",
+      "label": "bytes",
+      "loc": {
+        "file": "test/vault.test.mjs",
+        "line": 112
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "fsp",
+        "objPath"
+      ],
+      "end_line": 112,
+      "signature": "bytes"
+    },
+    {
+      "id": "vault-folder::test::vault.test.mjs::entries",
+      "kind": "variable",
+      "label": "entries",
+      "loc": {
+        "file": "test/vault.test.mjs",
+        "line": 61
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "listEntries",
+        "relocked"
+      ],
+      "end_line": 61,
+      "signature": "entries"
+    },
+    {
+      "id": "vault-folder::test::vault.test.mjs::entry",
+      "kind": "variable",
+      "label": "entry",
+      "loc": {
+        "file": "test/vault.test.mjs",
+        "line": 57
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "addFile",
+        "session",
+        "src"
+      ],
+      "end_line": 57,
+      "signature": "entry"
+    },
+    {
+      "id": "vault-folder::test::vault.test.mjs::marker",
+      "kind": "variable",
+      "label": "marker",
+      "loc": {
+        "file": "test/vault.test.mjs",
+        "line": 85
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "Buffer"
+      ],
+      "end_line": 85,
+      "signature": "marker"
+    },
+    {
+      "id": "vault-folder::test::vault.test.mjs::names",
+      "kind": "variable",
+      "label": "names",
+      "loc": {
+        "file": "test/vault.test.mjs",
+        "line": 89
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 89,
+      "signature": "names"
+    },
+    {
+      "id": "vault-folder::test::vault.test.mjs::objPath",
+      "kind": "variable",
+      "label": "objPath",
+      "loc": {
+        "file": "test/vault.test.mjs",
+        "line": 111
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "path",
+        "dir",
+        "entry"
+      ],
+      "end_line": 111,
+      "signature": "objPath"
+    },
+    {
+      "id": "vault-folder::test::vault.test.mjs::out",
+      "kind": "variable",
+      "label": "out",
+      "loc": {
+        "file": "test/vault.test.mjs",
+        "line": 66
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "path",
+        "root"
+      ],
+      "end_line": 66,
+      "signature": "out"
+    },
+    {
+      "id": "vault-folder::test::vault.test.mjs::payload",
+      "kind": "variable",
+      "label": "payload",
+      "loc": {
+        "file": "test/vault.test.mjs",
+        "line": 55
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "randomBytes"
+      ],
+      "end_line": 55,
+      "signature": "payload"
+    },
+    {
+      "id": "vault-folder::test::vault.test.mjs::relocked",
+      "kind": "variable",
+      "label": "relocked",
+      "loc": {
+        "file": "test/vault.test.mjs",
+        "line": 60
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "unlockWithPassword",
+        "dir",
+        "PW"
+      ],
+      "end_line": 60,
+      "signature": "relocked"
+    },
+    {
+      "id": "vault-folder::test::vault.test.mjs::secretName",
+      "kind": "variable",
+      "label": "secretName",
+      "loc": {
+        "file": "test/vault.test.mjs",
+        "line": 84
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 84,
+      "signature": "secretName"
+    },
+    {
+      "id": "vault-folder::test::vault.test.mjs::session",
+      "kind": "variable",
+      "label": "session",
+      "loc": {
+        "file": "test/vault.test.mjs",
+        "line": 31
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "unlockWithPassword",
+        "dir",
+        "PW"
+      ],
+      "end_line": 31,
+      "signature": "session"
+    },
+    {
+      "id": "vault-folder::test::vault.test.mjs::src",
+      "kind": "variable",
+      "label": "src",
+      "loc": {
+        "file": "test/vault.test.mjs",
+        "line": 56
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "writeSource",
+        "root",
+        "payload"
+      ],
+      "end_line": 56,
+      "signature": "src"
+    },
+    {
+      "id": "vault-folder::test::vault.test.mjs::status",
+      "kind": "variable",
+      "label": "status",
+      "loc": {
+        "file": "test/vault.test.mjs",
+        "line": 33
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "vaultStatus",
+        "dir"
+      ],
+      "end_line": 33,
+      "signature": "status"
+    },
+    {
+      "id": "vault-folder::test::vault.test.mjs::tmpVault",
+      "kind": "function",
+      "label": "tmpVault",
+      "loc": {
+        "file": "test/vault.test.mjs",
+        "line": 15
+      },
+      "tier": "optional",
+      "defines": [
+        "t",
+        "root",
+        "dir"
+      ],
+      "refs": [
+        "fsp",
+        "path",
+        "os",
+        "createVault",
+        "PW",
+        "CHUNK"
+      ],
+      "end_line": 21,
+      "signature": "async function tmpVault(t)",
+      "decisions": 0
+    },
+    {
+      "id": "vault-folder::test::vault.test.mjs::walk",
+      "kind": "variable",
+      "label": "walk",
+      "loc": {
+        "file": "test/vault.test.mjs",
+        "line": 90
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "e",
+        "fsp",
+        "names",
+        "path",
+        "walk",
+        "assert",
+        "marker",
+        "Buffer",
+        "secretName"
+      ],
+      "end_line": 101,
+      "signature": "walk"
+    },
+    {
+      "id": "vault-folder::test::vault.test.mjs::writeSource",
+      "kind": "function",
+      "label": "writeSource",
+      "loc": {
+        "file": "test/vault.test.mjs",
+        "line": 23
+      },
+      "tier": "optional",
+      "defines": [
+        "root",
+        "name",
+        "bytes",
+        "p"
+      ],
+      "refs": [
+        "path",
+        "fsp"
+      ],
+      "end_line": 27,
+      "signature": "async function writeSource(root, name, bytes)",
+      "decisions": 0
+    }
+  ],
+  "edges": [
+    {
+      "from": "vault-folder",
+      "to": "vault-folder::CHANGELOG",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder",
+      "to": "vault-folder::CONTRIBUTING",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder",
+      "to": "vault-folder::FORMAT",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder",
+      "to": "vault-folder::README",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder",
+      "to": "vault-folder::SECURITY",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder",
+      "to": "vault-folder::bin::vaultfolder.mjs",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder",
+      "to": "vault-folder::src::vault.mjs",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder",
+      "to": "vault-folder::test::vault.test.mjs",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/CHANGELOG.md",
+      "to": "vault-folder::CHANGELOG::CHANGELOG",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/CONTRIBUTING.md",
+      "to": "vault-folder::CONTRIBUTING::CONTRIBUTING",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/FORMAT.md",
+      "to": "vault-folder::FORMAT::FORMAT",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/README.md",
+      "to": "vault-folder::README::README",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/SECURITY.md",
+      "to": "vault-folder::SECURITY::SECURITY",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/bin/vaultfolder.mjs",
+      "to": "vault-folder::bin::vaultfolder.mjs::getPassword",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/bin/vaultfolder.mjs",
+      "to": "vault-folder::bin::vaultfolder.mjs::humanSize",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/bin/vaultfolder.mjs",
+      "to": "vault-folder::bin::vaultfolder.mjs::main",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/bin/vaultfolder.mjs",
+      "to": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/bin/vaultfolder.mjs",
+      "to": "vault-folder::bin::vaultfolder.mjs::unlock",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::B32_ALPHABET",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::DEFAULT_CHUNK_SIZE",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::FORMAT_VERSION",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::KDF_ITERATIONS",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::MAGIC",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::VERIFIER_PLAINTEXT",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::VaultError",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::VaultError::constructor",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::WRAP_AAD",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::addFile",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::b64",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::base32Decode",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::base32Encode",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::createVault",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::deriveKek",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::extractFile",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::formatRecoveryKey",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::gcmDecrypt",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::gcmEncrypt",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::headerPath",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::listEntries",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::loadManifest",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::manifestPath",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::normalizeRecoveryKey",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::objectPath",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::objectsDir",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::pbkdf2Async",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::readHeader",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::removeFile",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::resolveEntry",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::saveManifest",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::unb64",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::unlockWithKek",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::unlockWithPassword",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::unlockWithRecovery",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/src/vault.mjs",
+      "to": "vault-folder::src::vault.mjs::vaultStatus",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/test/vault.test.mjs",
+      "to": "vault-folder::test::vault.test.mjs::CHUNK",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/test/vault.test.mjs",
+      "to": "vault-folder::test::vault.test.mjs::PW",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/test/vault.test.mjs",
+      "to": "vault-folder::test::vault.test.mjs::a",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/test/vault.test.mjs",
+      "to": "vault-folder::test::vault.test.mjs::b",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/test/vault.test.mjs",
+      "to": "vault-folder::test::vault.test.mjs::bytes",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/test/vault.test.mjs",
+      "to": "vault-folder::test::vault.test.mjs::entries",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/test/vault.test.mjs",
+      "to": "vault-folder::test::vault.test.mjs::entry",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/test/vault.test.mjs",
+      "to": "vault-folder::test::vault.test.mjs::marker",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/test/vault.test.mjs",
+      "to": "vault-folder::test::vault.test.mjs::names",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/test/vault.test.mjs",
+      "to": "vault-folder::test::vault.test.mjs::objPath",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/test/vault.test.mjs",
+      "to": "vault-folder::test::vault.test.mjs::out",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/test/vault.test.mjs",
+      "to": "vault-folder::test::vault.test.mjs::payload",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/test/vault.test.mjs",
+      "to": "vault-folder::test::vault.test.mjs::relocked",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/test/vault.test.mjs",
+      "to": "vault-folder::test::vault.test.mjs::secretName",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/test/vault.test.mjs",
+      "to": "vault-folder::test::vault.test.mjs::session",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/test/vault.test.mjs",
+      "to": "vault-folder::test::vault.test.mjs::src",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/test/vault.test.mjs",
+      "to": "vault-folder::test::vault.test.mjs::status",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/test/vault.test.mjs",
+      "to": "vault-folder::test::vault.test.mjs::tmpVault",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/test/vault.test.mjs",
+      "to": "vault-folder::test::vault.test.mjs::walk",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/test/vault.test.mjs",
+      "to": "vault-folder::test::vault.test.mjs::writeSource",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::CHANGELOG",
+      "to": "vault-folder::/CHANGELOG.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::CONTRIBUTING",
+      "to": "vault-folder::/CONTRIBUTING.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::FORMAT",
+      "to": "vault-folder::/FORMAT.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::README",
+      "to": "vault-folder::/README.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::SECURITY",
+      "to": "vault-folder::/SECURITY.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs",
+      "to": "external::console.error",
+      "kind": "calls",
+      "line": 167,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs",
+      "to": "external::main().catch",
+      "kind": "calls",
+      "line": 166,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs",
+      "to": "external::node:fs",
+      "kind": "imports",
+      "line": 19,
+      "attrs": {
+        "bindings": [
+          "fsp"
+        ]
+      }
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs",
+      "to": "external::node:path",
+      "kind": "imports",
+      "line": 18,
+      "attrs": {
+        "bindings": [
+          "path"
+        ]
+      }
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs",
+      "to": "external::process.exit",
+      "kind": "calls",
+      "line": 169,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs",
+      "to": "vault-folder::/bin/vaultfolder.mjs",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs",
+      "to": "vault-folder::bin::vaultfolder.mjs::main",
+      "kind": "calls",
+      "line": 166,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs",
+      "to": "vault-folder::src::vault.mjs",
+      "kind": "imports",
+      "line": 20,
+      "attrs": {
+        "bindings": [
+          "VaultError",
+          "addFile",
+          "createVault",
+          "extractFile",
+          "listEntries",
+          "removeFile",
+          "unlockWithPassword",
+          "unlockWithRecovery",
+          "vaultStatus"
+        ]
+      }
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::getPassword",
+      "to": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+      "kind": "calls",
+      "line": 63,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::getPassword",
+      "to": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+      "kind": "reads",
+      "line": 61,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::getPassword",
+      "to": "vault-folder::src::vault.mjs::VaultError",
+      "kind": "calls",
+      "line": 64,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::getPassword",
+      "to": "vault-folder::src::vault.mjs::VaultError",
+      "kind": "reads",
+      "line": 61,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::humanSize",
+      "to": "external::(n / 1024 ** 2).toFixed",
+      "kind": "calls",
+      "line": 84,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::humanSize",
+      "to": "external::(n / 1024 ** 3).toFixed",
+      "kind": "calls",
+      "line": 85,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::humanSize",
+      "to": "external::(n / 1024).toFixed",
+      "kind": "calls",
+      "line": 83,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "external::console.error",
+      "kind": "calls",
+      "line": 160,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "external::console.log",
+      "kind": "calls",
+      "line": 99,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "external::files.indexOf",
+      "kind": "calls",
+      "line": 111,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "external::files.splice",
+      "kind": "calls",
+      "line": 112,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "external::fsp.mkdir",
+      "kind": "calls",
+      "line": 138,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "external::humanSize(e.size).padStart",
+      "kind": "calls",
+      "line": 128,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "external::listEntries(session).find",
+      "kind": "calls",
+      "line": 136,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "external::path.join",
+      "kind": "calls",
+      "line": 139,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "external::path.resolve",
+      "kind": "calls",
+      "line": 99,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "external::process.argv.slice",
+      "kind": "calls",
+      "line": 89,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "external::process.exit",
+      "kind": "calls",
+      "line": 162,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "external::rest.filter",
+      "kind": "calls",
+      "line": 91,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "external::rest.includes",
+      "kind": "calls",
+      "line": 90,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "vault-folder::bin::vaultfolder.mjs::getPassword",
+      "kind": "calls",
+      "line": 97,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "vault-folder::bin::vaultfolder.mjs::getPassword",
+      "kind": "reads",
+      "line": 88,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "vault-folder::bin::vaultfolder.mjs::humanSize",
+      "kind": "calls",
+      "line": 118,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "vault-folder::bin::vaultfolder.mjs::humanSize",
+      "kind": "reads",
+      "line": 88,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "vault-folder::bin::vaultfolder.mjs::unlock",
+      "kind": "calls",
+      "line": 115,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "vault-folder::bin::vaultfolder.mjs::unlock",
+      "kind": "reads",
+      "line": 88,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "vault-folder::src::vault.mjs::VaultError",
+      "kind": "calls",
+      "line": 96,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "vault-folder::src::vault.mjs::VaultError",
+      "kind": "reads",
+      "line": 88,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "vault-folder::src::vault.mjs::addFile",
+      "kind": "calls",
+      "line": 117,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "vault-folder::src::vault.mjs::addFile",
+      "kind": "reads",
+      "line": 88,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "vault-folder::src::vault.mjs::createVault",
+      "kind": "calls",
+      "line": 98,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "vault-folder::src::vault.mjs::createVault",
+      "kind": "reads",
+      "line": 88,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "vault-folder::src::vault.mjs::extractFile",
+      "kind": "calls",
+      "line": 140,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "vault-folder::src::vault.mjs::extractFile",
+      "kind": "reads",
+      "line": 88,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "vault-folder::src::vault.mjs::listEntries",
+      "kind": "calls",
+      "line": 126,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "vault-folder::src::vault.mjs::listEntries",
+      "kind": "reads",
+      "line": 88,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "vault-folder::src::vault.mjs::removeFile",
+      "kind": "calls",
+      "line": 148,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "vault-folder::src::vault.mjs::removeFile",
+      "kind": "reads",
+      "line": 88,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "vault-folder::src::vault.mjs::vaultStatus",
+      "kind": "calls",
+      "line": 155,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "vault-folder::src::vault.mjs::vaultStatus",
+      "kind": "reads",
+      "line": 88,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "vault-folder::test::vault.test.mjs::a",
+      "kind": "defines",
+      "line": 88,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "vault-folder::test::vault.test.mjs::entries",
+      "kind": "defines",
+      "line": 88,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "vault-folder::test::vault.test.mjs::entry",
+      "kind": "defines",
+      "line": 88,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::main",
+      "to": "vault-folder::test::vault.test.mjs::session",
+      "kind": "defines",
+      "line": 88,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+      "to": "external::Promise",
+      "kind": "calls",
+      "line": 26,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+      "to": "external::Promise",
+      "kind": "reads",
+      "line": 25,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+      "to": "external::data.split",
+      "kind": "calls",
+      "line": 31,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+      "to": "external::data.split('\\n')[0].trim",
+      "kind": "calls",
+      "line": 31,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+      "to": "external::process.exit",
+      "kind": "calls",
+      "line": 50,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+      "to": "external::process.stderr.write",
+      "kind": "calls",
+      "line": 33,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+      "to": "external::process.stdin.on",
+      "kind": "calls",
+      "line": 30,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+      "to": "external::process.stdin.setEncoding",
+      "kind": "calls",
+      "line": 29,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+      "to": "external::resolve",
+      "kind": "calls",
+      "line": 31,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+      "to": "external::resolve",
+      "kind": "defines",
+      "line": 25,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+      "to": "external::stdin.on",
+      "kind": "calls",
+      "line": 57,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+      "to": "external::stdin.pause",
+      "kind": "calls",
+      "line": 45,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+      "to": "external::stdin.removeListener",
+      "kind": "calls",
+      "line": 46,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+      "to": "external::stdin.resume",
+      "kind": "calls",
+      "line": 39,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+      "to": "external::stdin.setEncoding",
+      "kind": "calls",
+      "line": 40,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+      "to": "external::stdin.setRawMode",
+      "kind": "calls",
+      "line": 38,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+      "to": "external::value.slice",
+      "kind": "calls",
+      "line": 52,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::unlock",
+      "to": "vault-folder::bin::vaultfolder.mjs::getPassword",
+      "kind": "calls",
+      "line": 78,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::unlock",
+      "to": "vault-folder::bin::vaultfolder.mjs::getPassword",
+      "kind": "reads",
+      "line": 72,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::unlock",
+      "to": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+      "kind": "calls",
+      "line": 74,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::unlock",
+      "to": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+      "kind": "reads",
+      "line": 72,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::unlock",
+      "to": "vault-folder::src::vault.mjs::VaultError",
+      "kind": "calls",
+      "line": 75,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::unlock",
+      "to": "vault-folder::src::vault.mjs::VaultError",
+      "kind": "reads",
+      "line": 72,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::unlock",
+      "to": "vault-folder::src::vault.mjs::unlockWithPassword",
+      "kind": "calls",
+      "line": 78,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::unlock",
+      "to": "vault-folder::src::vault.mjs::unlockWithPassword",
+      "kind": "reads",
+      "line": 72,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::unlock",
+      "to": "vault-folder::src::vault.mjs::unlockWithRecovery",
+      "kind": "calls",
+      "line": 76,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::bin::vaultfolder.mjs::unlock",
+      "to": "vault-folder::src::vault.mjs::unlockWithRecovery",
+      "kind": "reads",
+      "line": 72,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs",
+      "to": "external::node:crypto",
+      "kind": "imports",
+      "line": 20,
+      "attrs": {
+        "bindings": [
+          "createCipheriv",
+          "createDecipheriv",
+          "pbkdf2",
+          "randomBytes"
+        ]
+      }
+    },
+    {
+      "from": "vault-folder::src::vault.mjs",
+      "to": "external::node:fs",
+      "kind": "imports",
+      "line": 18,
+      "attrs": {
+        "bindings": [
+          "fsp"
+        ]
+      }
+    },
+    {
+      "from": "vault-folder::src::vault.mjs",
+      "to": "external::node:path",
+      "kind": "imports",
+      "line": 19,
+      "attrs": {
+        "bindings": [
+          "path"
+        ]
+      }
+    },
+    {
+      "from": "vault-folder::src::vault.mjs",
+      "to": "external::node:util",
+      "kind": "imports",
+      "line": 21,
+      "attrs": {
+        "bindings": [
+          "promisify"
+        ]
+      }
+    },
+    {
+      "from": "vault-folder::src::vault.mjs",
+      "to": "vault-folder::/src/vault.mjs",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::VaultError::constructor",
+      "to": "external::super",
+      "kind": "calls",
+      "line": 34,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "external::Buffer.alloc",
+      "kind": "calls",
+      "line": 276,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "external::Buffer.from",
+      "kind": "calls",
+      "line": 270,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "external::Date",
+      "kind": "calls",
+      "line": 305,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "external::Date",
+      "kind": "reads",
+      "line": 263,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "external::MAGIC.copy",
+      "kind": "calls",
+      "line": 278,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "external::Math.ceil",
+      "kind": "calls",
+      "line": 271,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "external::Math.max",
+      "kind": "calls",
+      "line": 271,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "external::Math.min",
+      "kind": "calls",
+      "line": 287,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "external::buf.subarray",
+      "kind": "calls",
+      "line": 289,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "external::dst.close",
+      "kind": "calls",
+      "line": 298,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "external::dst.write",
+      "kind": "calls",
+      "line": 283,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "external::fsp.open",
+      "kind": "calls",
+      "line": 273,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "external::fsp.stat",
+      "kind": "calls",
+      "line": 264,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "external::head.writeUInt32BE",
+      "kind": "calls",
+      "line": 281,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "external::lenBuf.writeUInt32BE",
+      "kind": "calls",
+      "line": 291,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "external::new Date().toISOString",
+      "kind": "calls",
+      "line": 305,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "external::randomBytes",
+      "kind": "calls",
+      "line": 268,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "external::randomBytes",
+      "kind": "reads",
+      "line": 263,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "external::randomBytes(16).toString",
+      "kind": "calls",
+      "line": 268,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "external::src.close",
+      "kind": "calls",
+      "line": 297,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "external::src.read",
+      "kind": "calls",
+      "line": 288,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "external::stat.isFile",
+      "kind": "calls",
+      "line": 265,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "external::stat.mtime.toISOString",
+      "kind": "calls",
+      "line": 304,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "external::wrapped.ct.copy",
+      "kind": "calls",
+      "line": 280,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "external::wrapped.nonce.copy",
+      "kind": "calls",
+      "line": 279,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "vault-folder::src::vault.mjs::MAGIC",
+      "kind": "reads",
+      "line": 263,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "vault-folder::src::vault.mjs::VaultError",
+      "kind": "calls",
+      "line": 265,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "vault-folder::src::vault.mjs::VaultError",
+      "kind": "reads",
+      "line": 263,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "vault-folder::src::vault.mjs::gcmEncrypt",
+      "kind": "calls",
+      "line": 270,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "vault-folder::src::vault.mjs::gcmEncrypt",
+      "kind": "reads",
+      "line": 263,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "vault-folder::src::vault.mjs::objectPath",
+      "kind": "calls",
+      "line": 274,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "vault-folder::src::vault.mjs::objectPath",
+      "kind": "reads",
+      "line": 263,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "vault-folder::src::vault.mjs::saveManifest",
+      "kind": "calls",
+      "line": 308,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "vault-folder::src::vault.mjs::saveManifest",
+      "kind": "reads",
+      "line": 263,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "vault-folder::test::vault.test.mjs::session",
+      "kind": "defines",
+      "line": 263,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::addFile",
+      "to": "vault-folder::test::vault.test.mjs::src",
+      "kind": "defines",
+      "line": 263,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::b64",
+      "to": "external::Buffer.from",
+      "kind": "calls",
+      "line": 42,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::b64",
+      "to": "external::Buffer.from(buf).toString",
+      "kind": "calls",
+      "line": 42,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::base32Decode",
+      "to": "external::B32_ALPHABET.indexOf",
+      "kind": "calls",
+      "line": 98,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::base32Decode",
+      "to": "external::Buffer.from",
+      "kind": "calls",
+      "line": 105,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::base32Decode",
+      "to": "external::String",
+      "kind": "calls",
+      "line": 93,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::base32Decode",
+      "to": "external::String",
+      "kind": "reads",
+      "line": 92,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::base32Decode",
+      "to": "external::String(str).toUpperCase",
+      "kind": "calls",
+      "line": 93,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::base32Decode",
+      "to": "external::String(str).toUpperCase().replace",
+      "kind": "calls",
+      "line": 93,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::base32Decode",
+      "to": "external::out.push",
+      "kind": "calls",
+      "line": 101,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::base32Decode",
+      "to": "vault-folder::src::vault.mjs::B32_ALPHABET",
+      "kind": "reads",
+      "line": 92,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::base32Decode",
+      "to": "vault-folder::test::vault.test.mjs::out",
+      "kind": "defines",
+      "line": 92,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::base32Encode",
+      "to": "vault-folder::src::vault.mjs::B32_ALPHABET",
+      "kind": "reads",
+      "line": 76,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::base32Encode",
+      "to": "vault-folder::test::vault.test.mjs::out",
+      "kind": "defines",
+      "line": 76,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "external::Buffer.from",
+      "kind": "calls",
+      "line": 184,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "external::Date",
+      "kind": "calls",
+      "line": 189,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "external::Date",
+      "kind": "reads",
+      "line": 162,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "external::JSON.stringify",
+      "kind": "calls",
+      "line": 199,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "external::fsp.access",
+      "kind": "calls",
+      "line": 165,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "external::fsp.mkdir",
+      "kind": "calls",
+      "line": 170,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "external::fsp.writeFile",
+      "kind": "calls",
+      "line": 199,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "external::new Date().toISOString",
+      "kind": "calls",
+      "line": 189,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "external::randomBytes",
+      "kind": "calls",
+      "line": 173,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "external::randomBytes",
+      "kind": "reads",
+      "line": 162,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "vault-folder::src::vault.mjs::DEFAULT_CHUNK_SIZE",
+      "kind": "reads",
+      "line": 162,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "vault-folder::src::vault.mjs::FORMAT_VERSION",
+      "kind": "reads",
+      "line": 162,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "vault-folder::src::vault.mjs::KDF_ITERATIONS",
+      "kind": "reads",
+      "line": 162,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "vault-folder::src::vault.mjs::VERIFIER_PLAINTEXT",
+      "kind": "reads",
+      "line": 162,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "vault-folder::src::vault.mjs::VaultError",
+      "kind": "calls",
+      "line": 163,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "vault-folder::src::vault.mjs::VaultError",
+      "kind": "reads",
+      "line": 162,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "vault-folder::src::vault.mjs::WRAP_AAD",
+      "kind": "reads",
+      "line": 162,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "vault-folder::src::vault.mjs::b64",
+      "kind": "calls",
+      "line": 191,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "vault-folder::src::vault.mjs::b64",
+      "kind": "reads",
+      "line": 162,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "vault-folder::src::vault.mjs::base32Encode",
+      "kind": "calls",
+      "line": 179,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "vault-folder::src::vault.mjs::base32Encode",
+      "kind": "reads",
+      "line": 162,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "vault-folder::src::vault.mjs::deriveKek",
+      "kind": "calls",
+      "line": 174,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "vault-folder::src::vault.mjs::deriveKek",
+      "kind": "reads",
+      "line": 162,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "vault-folder::src::vault.mjs::formatRecoveryKey",
+      "kind": "calls",
+      "line": 203,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "vault-folder::src::vault.mjs::formatRecoveryKey",
+      "kind": "reads",
+      "line": 162,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "vault-folder::src::vault.mjs::gcmEncrypt",
+      "kind": "calls",
+      "line": 177,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "vault-folder::src::vault.mjs::gcmEncrypt",
+      "kind": "reads",
+      "line": 162,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "vault-folder::src::vault.mjs::headerPath",
+      "kind": "calls",
+      "line": 165,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "vault-folder::src::vault.mjs::headerPath",
+      "kind": "reads",
+      "line": 162,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "vault-folder::src::vault.mjs::objectsDir",
+      "kind": "calls",
+      "line": 170,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "vault-folder::src::vault.mjs::objectsDir",
+      "kind": "reads",
+      "line": 162,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "vault-folder::src::vault.mjs::saveManifest",
+      "kind": "calls",
+      "line": 202,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "vault-folder::src::vault.mjs::saveManifest",
+      "kind": "reads",
+      "line": 162,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::createVault",
+      "to": "vault-folder::test::vault.test.mjs::session",
+      "kind": "defines",
+      "line": 162,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::deriveKek",
+      "to": "vault-folder::src::vault.mjs::pbkdf2Async",
+      "kind": "calls",
+      "line": 46,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::deriveKek",
+      "to": "vault-folder::src::vault.mjs::pbkdf2Async",
+      "kind": "reads",
+      "line": 45,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::extractFile",
+      "to": "external::Buffer.alloc",
+      "kind": "calls",
+      "line": 320,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::extractFile",
+      "to": "external::Buffer.from",
+      "kind": "calls",
+      "line": 327,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::extractFile",
+      "to": "external::dst.close",
+      "kind": "calls",
+      "line": 351,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::extractFile",
+      "to": "external::dst.write",
+      "kind": "calls",
+      "line": 348,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::extractFile",
+      "to": "external::fsp.open",
+      "kind": "calls",
+      "line": 316,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::extractFile",
+      "to": "external::head.readUInt32BE",
+      "kind": "calls",
+      "line": 325,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::extractFile",
+      "to": "external::head.subarray",
+      "kind": "calls",
+      "line": 322,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::extractFile",
+      "to": "external::head.subarray(0, 4).equals",
+      "kind": "calls",
+      "line": 322,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::extractFile",
+      "to": "external::meta.readUInt32BE",
+      "kind": "calls",
+      "line": 336,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::extractFile",
+      "to": "external::meta.subarray",
+      "kind": "calls",
+      "line": 335,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::extractFile",
+      "to": "external::src.close",
+      "kind": "calls",
+      "line": 355,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::extractFile",
+      "to": "external::src.read",
+      "kind": "calls",
+      "line": 321,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::extractFile",
+      "to": "external::src.stat",
+      "kind": "calls",
+      "line": 318,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::extractFile",
+      "to": "vault-folder::src::vault.mjs::MAGIC",
+      "kind": "reads",
+      "line": 313,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::extractFile",
+      "to": "vault-folder::src::vault.mjs::VaultError",
+      "kind": "calls",
+      "line": 322,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::extractFile",
+      "to": "vault-folder::src::vault.mjs::VaultError",
+      "kind": "reads",
+      "line": 313,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::extractFile",
+      "to": "vault-folder::src::vault.mjs::gcmDecrypt",
+      "kind": "calls",
+      "line": 327,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::extractFile",
+      "to": "vault-folder::src::vault.mjs::gcmDecrypt",
+      "kind": "reads",
+      "line": 313,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::extractFile",
+      "to": "vault-folder::src::vault.mjs::objectPath",
+      "kind": "calls",
+      "line": 316,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::extractFile",
+      "to": "vault-folder::src::vault.mjs::objectPath",
+      "kind": "reads",
+      "line": 313,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::extractFile",
+      "to": "vault-folder::src::vault.mjs::resolveEntry",
+      "kind": "calls",
+      "line": 314,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::extractFile",
+      "to": "vault-folder::src::vault.mjs::resolveEntry",
+      "kind": "reads",
+      "line": 313,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::extractFile",
+      "to": "vault-folder::test::vault.test.mjs::entry",
+      "kind": "defines",
+      "line": 313,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::extractFile",
+      "to": "vault-folder::test::vault.test.mjs::session",
+      "kind": "defines",
+      "line": 313,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::extractFile",
+      "to": "vault-folder::test::vault.test.mjs::src",
+      "kind": "defines",
+      "line": 313,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::formatRecoveryKey",
+      "to": "external::rawBase32.match",
+      "kind": "calls",
+      "line": 109,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::formatRecoveryKey",
+      "to": "external::rawBase32.match(/.{1,4}/g).join",
+      "kind": "calls",
+      "line": 109,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::gcmDecrypt",
+      "to": "external::Buffer.concat",
+      "kind": "calls",
+      "line": 66,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::gcmDecrypt",
+      "to": "external::createDecipheriv",
+      "kind": "calls",
+      "line": 62,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::gcmDecrypt",
+      "to": "external::createDecipheriv",
+      "kind": "reads",
+      "line": 58,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::gcmDecrypt",
+      "to": "external::ctWithTag.subarray",
+      "kind": "calls",
+      "line": 60,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::gcmDecrypt",
+      "to": "external::decipher.final",
+      "kind": "calls",
+      "line": 66,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::gcmDecrypt",
+      "to": "external::decipher.setAAD",
+      "kind": "calls",
+      "line": 63,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::gcmDecrypt",
+      "to": "external::decipher.setAuthTag",
+      "kind": "calls",
+      "line": 64,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::gcmDecrypt",
+      "to": "external::decipher.update",
+      "kind": "calls",
+      "line": 66,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::gcmDecrypt",
+      "to": "vault-folder::src::vault.mjs::VaultError",
+      "kind": "calls",
+      "line": 59,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::gcmDecrypt",
+      "to": "vault-folder::src::vault.mjs::VaultError",
+      "kind": "reads",
+      "line": 58,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::gcmEncrypt",
+      "to": "external::Buffer.concat",
+      "kind": "calls",
+      "line": 54,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::gcmEncrypt",
+      "to": "external::cipher.final",
+      "kind": "calls",
+      "line": 54,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::gcmEncrypt",
+      "to": "external::cipher.getAuthTag",
+      "kind": "calls",
+      "line": 55,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::gcmEncrypt",
+      "to": "external::cipher.setAAD",
+      "kind": "calls",
+      "line": 53,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::gcmEncrypt",
+      "to": "external::cipher.update",
+      "kind": "calls",
+      "line": 54,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::gcmEncrypt",
+      "to": "external::createCipheriv",
+      "kind": "calls",
+      "line": 52,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::gcmEncrypt",
+      "to": "external::createCipheriv",
+      "kind": "reads",
+      "line": 50,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::gcmEncrypt",
+      "to": "external::randomBytes",
+      "kind": "calls",
+      "line": 51,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::gcmEncrypt",
+      "to": "external::randomBytes",
+      "kind": "reads",
+      "line": 50,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::headerPath",
+      "to": "external::path.join",
+      "kind": "calls",
+      "line": 118,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::listEntries",
+      "to": "external::Object.entries",
+      "kind": "calls",
+      "line": 247,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::listEntries",
+      "to": "external::Object.entries(session.manifest.entries)\n    .map",
+      "kind": "calls",
+      "line": 247,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::listEntries",
+      "to": "external::Object.entries(session.manifest.entries)\n    .map(([id, e]) => ({ id, ...e }))\n    .sort",
+      "kind": "calls",
+      "line": 247,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::listEntries",
+      "to": "external::a.name.localeCompare",
+      "kind": "calls",
+      "line": 249,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::listEntries",
+      "to": "vault-folder::test::vault.test.mjs::a",
+      "kind": "defines",
+      "line": 246,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::listEntries",
+      "to": "vault-folder::test::vault.test.mjs::b",
+      "kind": "defines",
+      "line": 246,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::listEntries",
+      "to": "vault-folder::test::vault.test.mjs::session",
+      "kind": "defines",
+      "line": 246,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::loadManifest",
+      "to": "external::Buffer.from",
+      "kind": "calls",
+      "line": 152,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::loadManifest",
+      "to": "external::JSON.parse",
+      "kind": "calls",
+      "line": 148,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::loadManifest",
+      "to": "external::fsp.readFile",
+      "kind": "calls",
+      "line": 148,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::loadManifest",
+      "to": "external::plain.toString",
+      "kind": "calls",
+      "line": 153,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::loadManifest",
+      "to": "vault-folder::src::vault.mjs::VaultError",
+      "kind": "calls",
+      "line": 150,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::loadManifest",
+      "to": "vault-folder::src::vault.mjs::VaultError",
+      "kind": "reads",
+      "line": 145,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::loadManifest",
+      "to": "vault-folder::src::vault.mjs::gcmDecrypt",
+      "kind": "calls",
+      "line": 152,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::loadManifest",
+      "to": "vault-folder::src::vault.mjs::gcmDecrypt",
+      "kind": "reads",
+      "line": 145,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::loadManifest",
+      "to": "vault-folder::src::vault.mjs::manifestPath",
+      "kind": "calls",
+      "line": 148,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::loadManifest",
+      "to": "vault-folder::src::vault.mjs::manifestPath",
+      "kind": "reads",
+      "line": 145,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::loadManifest",
+      "to": "vault-folder::src::vault.mjs::unb64",
+      "kind": "calls",
+      "line": 152,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::loadManifest",
+      "to": "vault-folder::src::vault.mjs::unb64",
+      "kind": "reads",
+      "line": 145,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::manifestPath",
+      "to": "external::path.join",
+      "kind": "calls",
+      "line": 119,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::normalizeRecoveryKey",
+      "to": "vault-folder::src::vault.mjs::base32Decode",
+      "kind": "calls",
+      "line": 113,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::normalizeRecoveryKey",
+      "to": "vault-folder::src::vault.mjs::base32Decode",
+      "kind": "reads",
+      "line": 112,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::normalizeRecoveryKey",
+      "to": "vault-folder::src::vault.mjs::base32Encode",
+      "kind": "calls",
+      "line": 113,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::normalizeRecoveryKey",
+      "to": "vault-folder::src::vault.mjs::base32Encode",
+      "kind": "reads",
+      "line": 112,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::objectPath",
+      "to": "external::path.join",
+      "kind": "calls",
+      "line": 121,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::objectPath",
+      "to": "vault-folder::src::vault.mjs::objectsDir",
+      "kind": "calls",
+      "line": 121,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::objectPath",
+      "to": "vault-folder::src::vault.mjs::objectsDir",
+      "kind": "reads",
+      "line": 121,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::objectsDir",
+      "to": "external::path.join",
+      "kind": "calls",
+      "line": 120,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::readHeader",
+      "to": "external::JSON.parse",
+      "kind": "calls",
+      "line": 130,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::readHeader",
+      "to": "external::fsp.readFile",
+      "kind": "calls",
+      "line": 126,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::readHeader",
+      "to": "vault-folder::src::vault.mjs::FORMAT_VERSION",
+      "kind": "reads",
+      "line": 123,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::readHeader",
+      "to": "vault-folder::src::vault.mjs::VaultError",
+      "kind": "calls",
+      "line": 128,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::readHeader",
+      "to": "vault-folder::src::vault.mjs::VaultError",
+      "kind": "reads",
+      "line": 123,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::readHeader",
+      "to": "vault-folder::src::vault.mjs::headerPath",
+      "kind": "calls",
+      "line": 126,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::readHeader",
+      "to": "vault-folder::src::vault.mjs::headerPath",
+      "kind": "reads",
+      "line": 123,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::removeFile",
+      "to": "external::fsp.unlink",
+      "kind": "calls",
+      "line": 362,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::removeFile",
+      "to": "external::fsp.unlink(objectPath(session.dir, entry.id)).catch",
+      "kind": "calls",
+      "line": 362,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::removeFile",
+      "to": "vault-folder::src::vault.mjs::objectPath",
+      "kind": "calls",
+      "line": 362,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::removeFile",
+      "to": "vault-folder::src::vault.mjs::objectPath",
+      "kind": "reads",
+      "line": 360,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::removeFile",
+      "to": "vault-folder::src::vault.mjs::resolveEntry",
+      "kind": "calls",
+      "line": 361,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::removeFile",
+      "to": "vault-folder::src::vault.mjs::resolveEntry",
+      "kind": "reads",
+      "line": 360,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::removeFile",
+      "to": "vault-folder::src::vault.mjs::saveManifest",
+      "kind": "calls",
+      "line": 364,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::removeFile",
+      "to": "vault-folder::src::vault.mjs::saveManifest",
+      "kind": "reads",
+      "line": 360,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::removeFile",
+      "to": "vault-folder::test::vault.test.mjs::entry",
+      "kind": "defines",
+      "line": 360,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::removeFile",
+      "to": "vault-folder::test::vault.test.mjs::session",
+      "kind": "defines",
+      "line": 360,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::resolveEntry",
+      "to": "external::listEntries(session).filter",
+      "kind": "calls",
+      "line": 254,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::resolveEntry",
+      "to": "vault-folder::src::vault.mjs::VaultError",
+      "kind": "calls",
+      "line": 255,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::resolveEntry",
+      "to": "vault-folder::src::vault.mjs::VaultError",
+      "kind": "reads",
+      "line": 252,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::resolveEntry",
+      "to": "vault-folder::src::vault.mjs::listEntries",
+      "kind": "calls",
+      "line": 254,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::resolveEntry",
+      "to": "vault-folder::src::vault.mjs::listEntries",
+      "kind": "reads",
+      "line": 252,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::resolveEntry",
+      "to": "vault-folder::test::vault.test.mjs::session",
+      "kind": "defines",
+      "line": 252,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::saveManifest",
+      "to": "external::Buffer.from",
+      "kind": "calls",
+      "line": 139,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::saveManifest",
+      "to": "external::JSON.stringify",
+      "kind": "calls",
+      "line": 139,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::saveManifest",
+      "to": "external::fsp.writeFile",
+      "kind": "calls",
+      "line": 142,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::saveManifest",
+      "to": "vault-folder::src::vault.mjs::b64",
+      "kind": "calls",
+      "line": 141,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::saveManifest",
+      "to": "vault-folder::src::vault.mjs::b64",
+      "kind": "reads",
+      "line": 138,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::saveManifest",
+      "to": "vault-folder::src::vault.mjs::gcmEncrypt",
+      "kind": "calls",
+      "line": 140,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::saveManifest",
+      "to": "vault-folder::src::vault.mjs::gcmEncrypt",
+      "kind": "reads",
+      "line": 138,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::saveManifest",
+      "to": "vault-folder::src::vault.mjs::manifestPath",
+      "kind": "calls",
+      "line": 142,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::saveManifest",
+      "to": "vault-folder::src::vault.mjs::manifestPath",
+      "kind": "reads",
+      "line": 138,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::saveManifest",
+      "to": "vault-folder::test::vault.test.mjs::session",
+      "kind": "defines",
+      "line": 138,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unb64",
+      "to": "external::Buffer.from",
+      "kind": "calls",
+      "line": 43,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithKek",
+      "to": "external::check.toString",
+      "kind": "calls",
+      "line": 214,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithKek",
+      "to": "vault-folder::src::vault.mjs::VERIFIER_PLAINTEXT",
+      "kind": "reads",
+      "line": 206,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithKek",
+      "to": "vault-folder::src::vault.mjs::VaultError",
+      "kind": "calls",
+      "line": 211,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithKek",
+      "to": "vault-folder::src::vault.mjs::VaultError",
+      "kind": "reads",
+      "line": 206,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithKek",
+      "to": "vault-folder::src::vault.mjs::WRAP_AAD",
+      "kind": "reads",
+      "line": 206,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithKek",
+      "to": "vault-folder::src::vault.mjs::gcmDecrypt",
+      "kind": "calls",
+      "line": 209,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithKek",
+      "to": "vault-folder::src::vault.mjs::gcmDecrypt",
+      "kind": "reads",
+      "line": 206,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithKek",
+      "to": "vault-folder::src::vault.mjs::loadManifest",
+      "kind": "calls",
+      "line": 217,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithKek",
+      "to": "vault-folder::src::vault.mjs::loadManifest",
+      "kind": "reads",
+      "line": 206,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithKek",
+      "to": "vault-folder::src::vault.mjs::unb64",
+      "kind": "calls",
+      "line": 209,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithKek",
+      "to": "vault-folder::src::vault.mjs::unb64",
+      "kind": "reads",
+      "line": 206,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithPassword",
+      "to": "vault-folder::src::vault.mjs::deriveKek",
+      "kind": "calls",
+      "line": 223,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithPassword",
+      "to": "vault-folder::src::vault.mjs::deriveKek",
+      "kind": "reads",
+      "line": 221,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithPassword",
+      "to": "vault-folder::src::vault.mjs::readHeader",
+      "kind": "calls",
+      "line": 222,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithPassword",
+      "to": "vault-folder::src::vault.mjs::readHeader",
+      "kind": "reads",
+      "line": 221,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithPassword",
+      "to": "vault-folder::src::vault.mjs::unb64",
+      "kind": "calls",
+      "line": 223,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithPassword",
+      "to": "vault-folder::src::vault.mjs::unb64",
+      "kind": "reads",
+      "line": 221,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithPassword",
+      "to": "vault-folder::src::vault.mjs::unlockWithKek",
+      "kind": "calls",
+      "line": 224,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithPassword",
+      "to": "vault-folder::src::vault.mjs::unlockWithKek",
+      "kind": "reads",
+      "line": 221,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithRecovery",
+      "to": "vault-folder::src::vault.mjs::deriveKek",
+      "kind": "calls",
+      "line": 231,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithRecovery",
+      "to": "vault-folder::src::vault.mjs::deriveKek",
+      "kind": "reads",
+      "line": 227,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithRecovery",
+      "to": "vault-folder::src::vault.mjs::normalizeRecoveryKey",
+      "kind": "calls",
+      "line": 229,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithRecovery",
+      "to": "vault-folder::src::vault.mjs::normalizeRecoveryKey",
+      "kind": "reads",
+      "line": 227,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithRecovery",
+      "to": "vault-folder::src::vault.mjs::readHeader",
+      "kind": "calls",
+      "line": 228,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithRecovery",
+      "to": "vault-folder::src::vault.mjs::readHeader",
+      "kind": "reads",
+      "line": 227,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithRecovery",
+      "to": "vault-folder::src::vault.mjs::unb64",
+      "kind": "calls",
+      "line": 231,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithRecovery",
+      "to": "vault-folder::src::vault.mjs::unb64",
+      "kind": "reads",
+      "line": 227,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithRecovery",
+      "to": "vault-folder::src::vault.mjs::unlockWithKek",
+      "kind": "calls",
+      "line": 233,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::unlockWithRecovery",
+      "to": "vault-folder::src::vault.mjs::unlockWithKek",
+      "kind": "reads",
+      "line": 227,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::vaultStatus",
+      "to": "external::(await fsp.readdir(objectsDir(dir))).filter",
+      "kind": "calls",
+      "line": 241,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::vaultStatus",
+      "to": "external::f.endsWith",
+      "kind": "calls",
+      "line": 241,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::vaultStatus",
+      "to": "external::fsp.readdir",
+      "kind": "calls",
+      "line": 241,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::vaultStatus",
+      "to": "vault-folder::src::vault.mjs::objectsDir",
+      "kind": "calls",
+      "line": 241,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::vaultStatus",
+      "to": "vault-folder::src::vault.mjs::objectsDir",
+      "kind": "reads",
+      "line": 237,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::vaultStatus",
+      "to": "vault-folder::src::vault.mjs::readHeader",
+      "kind": "calls",
+      "line": 238,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::src::vault.mjs::vaultStatus",
+      "to": "vault-folder::src::vault.mjs::readHeader",
+      "kind": "reads",
+      "line": 237,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "external::assert.deepEqual",
+      "kind": "calls",
+      "line": 68,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "external::assert.equal",
+      "kind": "calls",
+      "line": 32,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "external::assert.ok",
+      "kind": "calls",
+      "line": 103,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "external::assert.rejects",
+      "kind": "calls",
+      "line": 40,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "external::fsp.access",
+      "kind": "calls",
+      "line": 128,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "external::fsp.readFile",
+      "kind": "calls",
+      "line": 68,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "external::fsp.writeFile",
+      "kind": "calls",
+      "line": 114,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "external::n.includes",
+      "kind": "calls",
+      "line": 103,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "external::names.some",
+      "kind": "calls",
+      "line": 103,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "external::node:assert/strict",
+      "kind": "imports",
+      "line": 2,
+      "attrs": {
+        "bindings": [
+          "assert"
+        ]
+      }
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "external::node:crypto",
+      "kind": "imports",
+      "line": 6,
+      "attrs": {
+        "bindings": [
+          "randomBytes"
+        ]
+      }
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "external::node:fs",
+      "kind": "imports",
+      "line": 3,
+      "attrs": {
+        "bindings": [
+          "fsp"
+        ]
+      }
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "external::node:os",
+      "kind": "imports",
+      "line": 5,
+      "attrs": {
+        "bindings": [
+          "os"
+        ]
+      }
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "external::node:path",
+      "kind": "imports",
+      "line": 4,
+      "attrs": {
+        "bindings": [
+          "path"
+        ]
+      }
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "external::node:test",
+      "kind": "imports",
+      "line": 1,
+      "attrs": {
+        "bindings": [
+          "test"
+        ]
+      }
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "external::path.join",
+      "kind": "calls",
+      "line": 116,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "external::test",
+      "kind": "calls",
+      "line": 29,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "vault-folder::/test/vault.test.mjs",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "vault-folder::src::vault.mjs",
+      "kind": "imports",
+      "line": 7,
+      "attrs": {
+        "bindings": [
+          "VaultError",
+          "addFile",
+          "createVault",
+          "extractFile",
+          "listEntries",
+          "removeFile",
+          "unlockWithPassword",
+          "unlockWithRecovery",
+          "vaultStatus"
+        ]
+      }
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "vault-folder::src::vault.mjs::addFile",
+      "kind": "calls",
+      "line": 75,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "vault-folder::src::vault.mjs::createVault",
+      "kind": "calls",
+      "line": 135,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "vault-folder::src::vault.mjs::extractFile",
+      "kind": "calls",
+      "line": 67,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "vault-folder::src::vault.mjs::listEntries",
+      "kind": "calls",
+      "line": 32,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "vault-folder::src::vault.mjs::removeFile",
+      "kind": "calls",
+      "line": 126,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "vault-folder::src::vault.mjs::unlockWithPassword",
+      "kind": "calls",
+      "line": 40,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "vault-folder::src::vault.mjs::unlockWithRecovery",
+      "kind": "calls",
+      "line": 49,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "vault-folder::test::vault.test.mjs::tmpVault",
+      "kind": "calls",
+      "line": 30,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs",
+      "to": "vault-folder::test::vault.test.mjs::walk",
+      "kind": "calls",
+      "line": 102,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::a",
+      "to": "vault-folder::src::vault.mjs::unlockWithRecovery",
+      "kind": "calls",
+      "line": 45,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::a",
+      "to": "vault-folder::src::vault.mjs::unlockWithRecovery",
+      "kind": "reads",
+      "line": 45,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::b",
+      "to": "external::recoveryKey.replaceAll",
+      "kind": "calls",
+      "line": 47,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::b",
+      "to": "external::recoveryKey.replaceAll('-', ' ').toLowerCase",
+      "kind": "calls",
+      "line": 47,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::b",
+      "to": "vault-folder::src::vault.mjs::unlockWithRecovery",
+      "kind": "calls",
+      "line": 47,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::b",
+      "to": "vault-folder::src::vault.mjs::unlockWithRecovery",
+      "kind": "reads",
+      "line": 47,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::bytes",
+      "to": "external::fsp.readFile",
+      "kind": "calls",
+      "line": 112,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::bytes",
+      "to": "vault-folder::test::vault.test.mjs::objPath",
+      "kind": "reads",
+      "line": 112,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::entries",
+      "to": "vault-folder::src::vault.mjs::listEntries",
+      "kind": "reads",
+      "line": 61,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::entries",
+      "to": "vault-folder::test::vault.test.mjs::relocked",
+      "kind": "reads",
+      "line": 61,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::entry",
+      "to": "vault-folder::src::vault.mjs::addFile",
+      "kind": "calls",
+      "line": 57,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::entry",
+      "to": "vault-folder::src::vault.mjs::addFile",
+      "kind": "reads",
+      "line": 57,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::entry",
+      "to": "vault-folder::test::vault.test.mjs::session",
+      "kind": "reads",
+      "line": 57,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::entry",
+      "to": "vault-folder::test::vault.test.mjs::src",
+      "kind": "reads",
+      "line": 57,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::objPath",
+      "to": "vault-folder::test::vault.test.mjs::entry",
+      "kind": "reads",
+      "line": 111,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::payload",
+      "to": "external::randomBytes",
+      "kind": "reads",
+      "line": 55,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::relocked",
+      "to": "vault-folder::src::vault.mjs::unlockWithPassword",
+      "kind": "calls",
+      "line": 60,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::relocked",
+      "to": "vault-folder::src::vault.mjs::unlockWithPassword",
+      "kind": "reads",
+      "line": 60,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::relocked",
+      "to": "vault-folder::test::vault.test.mjs::PW",
+      "kind": "reads",
+      "line": 60,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::session",
+      "to": "vault-folder::src::vault.mjs::unlockWithPassword",
+      "kind": "calls",
+      "line": 31,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::session",
+      "to": "vault-folder::src::vault.mjs::unlockWithPassword",
+      "kind": "reads",
+      "line": 31,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::session",
+      "to": "vault-folder::test::vault.test.mjs::PW",
+      "kind": "reads",
+      "line": 31,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::src",
+      "to": "external::Buffer.alloc",
+      "kind": "calls",
+      "line": 74,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::src",
+      "to": "external::Buffer.concat",
+      "kind": "calls",
+      "line": 86,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::src",
+      "to": "external::Buffer.from",
+      "kind": "calls",
+      "line": 124,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::src",
+      "to": "external::randomBytes",
+      "kind": "calls",
+      "line": 86,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::src",
+      "to": "vault-folder::test::vault.test.mjs::payload",
+      "kind": "reads",
+      "line": 56,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::src",
+      "to": "vault-folder::test::vault.test.mjs::writeSource",
+      "kind": "calls",
+      "line": 56,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::src",
+      "to": "vault-folder::test::vault.test.mjs::writeSource",
+      "kind": "reads",
+      "line": 56,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::status",
+      "to": "vault-folder::src::vault.mjs::vaultStatus",
+      "kind": "calls",
+      "line": 33,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::status",
+      "to": "vault-folder::src::vault.mjs::vaultStatus",
+      "kind": "reads",
+      "line": 33,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::tmpVault",
+      "to": "external::fsp.mkdtemp",
+      "kind": "calls",
+      "line": 16,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::tmpVault",
+      "to": "external::fsp.rm",
+      "kind": "calls",
+      "line": 17,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::tmpVault",
+      "to": "external::os.tmpdir",
+      "kind": "calls",
+      "line": 16,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::tmpVault",
+      "to": "external::path.join",
+      "kind": "calls",
+      "line": 16,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::tmpVault",
+      "to": "external::t.after",
+      "kind": "calls",
+      "line": 17,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::tmpVault",
+      "to": "vault-folder::src::vault.mjs::createVault",
+      "kind": "calls",
+      "line": 19,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::tmpVault",
+      "to": "vault-folder::src::vault.mjs::createVault",
+      "kind": "reads",
+      "line": 15,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::tmpVault",
+      "to": "vault-folder::test::vault.test.mjs::CHUNK",
+      "kind": "reads",
+      "line": 15,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::tmpVault",
+      "to": "vault-folder::test::vault.test.mjs::PW",
+      "kind": "reads",
+      "line": 15,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::walk",
+      "to": "external::Buffer.from",
+      "kind": "calls",
+      "line": 98,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::walk",
+      "to": "external::assert.ok",
+      "kind": "calls",
+      "line": 97,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::walk",
+      "to": "external::bytes.includes",
+      "kind": "calls",
+      "line": 97,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::walk",
+      "to": "external::e.isDirectory",
+      "kind": "calls",
+      "line": 94,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::walk",
+      "to": "external::fsp.readFile",
+      "kind": "calls",
+      "line": 96,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::walk",
+      "to": "external::fsp.readdir",
+      "kind": "calls",
+      "line": 91,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::walk",
+      "to": "external::names.push",
+      "kind": "calls",
+      "line": 92,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::walk",
+      "to": "external::path.join",
+      "kind": "calls",
+      "line": 93,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::walk",
+      "to": "vault-folder::test::vault.test.mjs::marker",
+      "kind": "reads",
+      "line": 90,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::walk",
+      "to": "vault-folder::test::vault.test.mjs::names",
+      "kind": "reads",
+      "line": 90,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::walk",
+      "to": "vault-folder::test::vault.test.mjs::secretName",
+      "kind": "reads",
+      "line": 90,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::walk",
+      "to": "vault-folder::test::vault.test.mjs::walk",
+      "kind": "calls",
+      "line": 94,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::walk",
+      "to": "vault-folder::test::vault.test.mjs::walk",
+      "kind": "reads",
+      "line": 90,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::writeSource",
+      "to": "external::fsp.writeFile",
+      "kind": "calls",
+      "line": 25,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::writeSource",
+      "to": "external::path.join",
+      "kind": "calls",
+      "line": 24,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::test::vault.test.mjs::writeSource",
+      "to": "vault-folder::test::vault.test.mjs::bytes",
+      "kind": "defines",
+      "line": 23,
+      "attrs": {}
+    }
+  ],
+  "audit_head": "36c5fbbf8f8bc0f10772c06b7003e20494073c6766c36ad6cd2d520539a6f842",
+  "audit_log": [
+    {
+      "seq": 0,
+      "ts": "1795021586",
+      "op": "genesis",
+      "payload": "{}",
+      "prev_hash": "GENESIS",
+      "hash": "cf5594a716615914152229491b218dd7fe8571e7e23819e74d297b70ec94682d"
+    },
+    {
+      "seq": 1,
+      "ts": "1795021586",
+      "op": "index_started",
+      "payload": "{\"package\":\"vault-folder\",\"repo\":\"/home/hatch/workspace/codetopo-work/PROFILES-GM-GATE-2026-11-18/work/vault-folder\"}",
+      "prev_hash": "cf5594a716615914152229491b218dd7fe8571e7e23819e74d297b70ec94682d",
+      "hash": "4d013f5d727577f1222ccfe7955bb625ee1de0097f8a40ff99cb431c7386ff2a"
+    },
+    {
+      "seq": 2,
+      "ts": "1795021586",
+      "op": "index_finished",
+      "payload": "{\"diagnostics\":128,\"edges\":478,\"files_failed\":0,\"files_indexed\":8,\"nodes\":204}",
+      "prev_hash": "4d013f5d727577f1222ccfe7955bb625ee1de0097f8a40ff99cb431c7386ff2a",
+      "hash": "36c5fbbf8f8bc0f10772c06b7003e20494073c6766c36ad6cd2d520539a6f842"
+    }
+  ],
+  "diagnostics": [
+    {
+      "MultiDefinition": {
+        "symbol": "vault-folder::test::vault.test.mjs::session",
+        "locations": [
+          {
+            "file": "test/vault.test.mjs",
+            "line": 31
+          },
+          {
+            "file": "test/vault.test.mjs",
+            "line": 54
+          }
+        ]
+      }
+    },
+    {
+      "MultiDefinition": {
+        "symbol": "vault-folder::test::vault.test.mjs::session",
+        "locations": [
+          {
+            "file": "test/vault.test.mjs",
+            "line": 31
+          },
+          {
+            "file": "test/vault.test.mjs",
+            "line": 73
+          }
+        ]
+      }
+    },
+    {
+      "MultiDefinition": {
+        "symbol": "vault-folder::test::vault.test.mjs::src",
+        "locations": [
+          {
+            "file": "test/vault.test.mjs",
+            "line": 56
+          },
+          {
+            "file": "test/vault.test.mjs",
+            "line": 74
+          }
+        ]
+      }
+    },
+    {
+      "MultiDefinition": {
+        "symbol": "vault-folder::test::vault.test.mjs::out",
+        "locations": [
+          {
+            "file": "test/vault.test.mjs",
+            "line": 66
+          },
+          {
+            "file": "test/vault.test.mjs",
+            "line": 76
+          }
+        ]
+      }
+    },
+    {
+      "MultiDefinition": {
+        "symbol": "vault-folder::test::vault.test.mjs::session",
+        "locations": [
+          {
+            "file": "test/vault.test.mjs",
+            "line": 31
+          },
+          {
+            "file": "test/vault.test.mjs",
+            "line": 83
+          }
+        ]
+      }
+    },
+    {
+      "MultiDefinition": {
+        "symbol": "vault-folder::test::vault.test.mjs::src",
+        "locations": [
+          {
+            "file": "test/vault.test.mjs",
+            "line": 56
+          },
+          {
+            "file": "test/vault.test.mjs",
+            "line": 86
+          }
+        ]
+      }
+    },
+    {
+      "MultiDefinition": {
+        "symbol": "vault-folder::test::vault.test.mjs::session",
+        "locations": [
+          {
+            "file": "test/vault.test.mjs",
+            "line": 31
+          },
+          {
+            "file": "test/vault.test.mjs",
+            "line": 108
+          }
+        ]
+      }
+    },
+    {
+      "MultiDefinition": {
+        "symbol": "vault-folder::test::vault.test.mjs::src",
+        "locations": [
+          {
+            "file": "test/vault.test.mjs",
+            "line": 56
+          },
+          {
+            "file": "test/vault.test.mjs",
+            "line": 109
+          }
+        ]
+      }
+    },
+    {
+      "MultiDefinition": {
+        "symbol": "vault-folder::test::vault.test.mjs::entry",
+        "locations": [
+          {
+            "file": "test/vault.test.mjs",
+            "line": 57
+          },
+          {
+            "file": "test/vault.test.mjs",
+            "line": 110
+          }
+        ]
+      }
+    },
+    {
+      "MultiDefinition": {
+        "symbol": "vault-folder::test::vault.test.mjs::session",
+        "locations": [
+          {
+            "file": "test/vault.test.mjs",
+            "line": 31
+          },
+          {
+            "file": "test/vault.test.mjs",
+            "line": 123
+          }
+        ]
+      }
+    },
+    {
+      "MultiDefinition": {
+        "symbol": "vault-folder::test::vault.test.mjs::src",
+        "locations": [
+          {
+            "file": "test/vault.test.mjs",
+            "line": 56
+          },
+          {
+            "file": "test/vault.test.mjs",
+            "line": 124
+          }
+        ]
+      }
+    },
+    {
+      "MultiDefinition": {
+        "symbol": "vault-folder::test::vault.test.mjs::entry",
+        "locations": [
+          {
+            "file": "test/vault.test.mjs",
+            "line": 57
+          },
+          {
+            "file": "test/vault.test.mjs",
+            "line": 125
+          }
+        ]
+      }
+    },
+    {
+      "MultiDefinition": {
+        "symbol": "vault-folder::test::vault.test.mjs::status",
+        "locations": [
+          {
+            "file": "test/vault.test.mjs",
+            "line": 33
+          },
+          {
+            "file": "test/vault.test.mjs",
+            "line": 129
+          }
+        ]
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs",
+        "target": "main().catch",
+        "line": 166
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::humanSize",
+        "target": "(n / 1024 ** 2).toFixed",
+        "line": 84
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::humanSize",
+        "target": "(n / 1024 ** 3).toFixed",
+        "line": 85
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::humanSize",
+        "target": "(n / 1024).toFixed",
+        "line": 83
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::main",
+        "target": "console.error",
+        "line": 160
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::main",
+        "target": "console.log",
+        "line": 99
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::main",
+        "target": "files.indexOf",
+        "line": 111
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::main",
+        "target": "files.splice",
+        "line": 112
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::main",
+        "target": "fsp.mkdir",
+        "line": 138
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::main",
+        "target": "humanSize(e.size).padStart",
+        "line": 128
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::main",
+        "target": "listEntries(session).find",
+        "line": 136
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::main",
+        "target": "path.join",
+        "line": 139
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::main",
+        "target": "path.resolve",
+        "line": 99
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::main",
+        "target": "process.argv.slice",
+        "line": 89
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::main",
+        "target": "rest.filter",
+        "line": 91
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::main",
+        "target": "rest.includes",
+        "line": 90
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+        "target": "Promise",
+        "line": 26
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+        "target": "data.split",
+        "line": 31
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+        "target": "data.split('\\n')[0].trim",
+        "line": 31
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+        "target": "process.exit",
+        "line": 50
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+        "target": "process.stderr.write",
+        "line": 33
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+        "target": "process.stdin.on",
+        "line": 30
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+        "target": "process.stdin.setEncoding",
+        "line": 29
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+        "target": "resolve",
+        "line": 31
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+        "target": "stdin.on",
+        "line": 57
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+        "target": "stdin.pause",
+        "line": 45
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+        "target": "stdin.removeListener",
+        "line": 46
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+        "target": "stdin.resume",
+        "line": 39
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+        "target": "stdin.setEncoding",
+        "line": 40
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+        "target": "stdin.setRawMode",
+        "line": 38
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
+        "target": "value.slice",
+        "line": 52
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::VaultError::constructor",
+        "target": "super",
+        "line": 34
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::addFile",
+        "target": "Buffer.alloc",
+        "line": 276
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::addFile",
+        "target": "MAGIC.copy",
+        "line": 278
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::addFile",
+        "target": "Math.ceil",
+        "line": 271
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::addFile",
+        "target": "Math.max",
+        "line": 271
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::addFile",
+        "target": "Math.min",
+        "line": 287
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::addFile",
+        "target": "buf.subarray",
+        "line": 289
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::addFile",
+        "target": "dst.close",
+        "line": 298
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::addFile",
+        "target": "dst.write",
+        "line": 283
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::addFile",
+        "target": "fsp.open",
+        "line": 273
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::addFile",
+        "target": "fsp.stat",
+        "line": 264
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::addFile",
+        "target": "head.writeUInt32BE",
+        "line": 281
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::addFile",
+        "target": "lenBuf.writeUInt32BE",
+        "line": 291
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::addFile",
+        "target": "randomBytes(16).toString",
+        "line": 268
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::addFile",
+        "target": "src.close",
+        "line": 297
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::addFile",
+        "target": "src.read",
+        "line": 288
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::addFile",
+        "target": "stat.isFile",
+        "line": 265
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::addFile",
+        "target": "stat.mtime.toISOString",
+        "line": 304
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::addFile",
+        "target": "wrapped.ct.copy",
+        "line": 280
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::addFile",
+        "target": "wrapped.nonce.copy",
+        "line": 279
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::b64",
+        "target": "Buffer.from",
+        "line": 42
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::b64",
+        "target": "Buffer.from(buf).toString",
+        "line": 42
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::base32Decode",
+        "target": "B32_ALPHABET.indexOf",
+        "line": 98
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::base32Decode",
+        "target": "String",
+        "line": 93
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::base32Decode",
+        "target": "String(str).toUpperCase",
+        "line": 93
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::base32Decode",
+        "target": "String(str).toUpperCase().replace",
+        "line": 93
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::base32Decode",
+        "target": "out.push",
+        "line": 101
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::createVault",
+        "target": "Date",
+        "line": 189
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::createVault",
+        "target": "fsp.access",
+        "line": 165
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::createVault",
+        "target": "new Date().toISOString",
+        "line": 189
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::extractFile",
+        "target": "head.readUInt32BE",
+        "line": 325
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::extractFile",
+        "target": "head.subarray",
+        "line": 322
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::extractFile",
+        "target": "head.subarray(0, 4).equals",
+        "line": 322
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::extractFile",
+        "target": "meta.readUInt32BE",
+        "line": 336
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::extractFile",
+        "target": "meta.subarray",
+        "line": 335
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::extractFile",
+        "target": "src.stat",
+        "line": 318
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::formatRecoveryKey",
+        "target": "rawBase32.match",
+        "line": 109
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::formatRecoveryKey",
+        "target": "rawBase32.match(/.{1,4}/g).join",
+        "line": 109
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::gcmDecrypt",
+        "target": "createDecipheriv",
+        "line": 62
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::gcmDecrypt",
+        "target": "ctWithTag.subarray",
+        "line": 60
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::gcmDecrypt",
+        "target": "decipher.final",
+        "line": 66
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::gcmDecrypt",
+        "target": "decipher.setAAD",
+        "line": 63
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::gcmDecrypt",
+        "target": "decipher.setAuthTag",
+        "line": 64
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::gcmDecrypt",
+        "target": "decipher.update",
+        "line": 66
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::gcmEncrypt",
+        "target": "Buffer.concat",
+        "line": 54
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::gcmEncrypt",
+        "target": "cipher.final",
+        "line": 54
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::gcmEncrypt",
+        "target": "cipher.getAuthTag",
+        "line": 55
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::gcmEncrypt",
+        "target": "cipher.setAAD",
+        "line": 53
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::gcmEncrypt",
+        "target": "cipher.update",
+        "line": 54
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::gcmEncrypt",
+        "target": "createCipheriv",
+        "line": 52
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::gcmEncrypt",
+        "target": "randomBytes",
+        "line": 51
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::listEntries",
+        "target": "Object.entries",
+        "line": 247
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::listEntries",
+        "target": "Object.entries(session.manifest.entries)\n    .map",
+        "line": 247
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::listEntries",
+        "target": "Object.entries(session.manifest.entries)\n    .map(([id, e]) => ({ id, ...e }))\n    .sort",
+        "line": 247
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::listEntries",
+        "target": "a.name.localeCompare",
+        "line": 249
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::loadManifest",
+        "target": "plain.toString",
+        "line": 153
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::readHeader",
+        "target": "JSON.parse",
+        "line": 130
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::readHeader",
+        "target": "fsp.readFile",
+        "line": 126
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::removeFile",
+        "target": "fsp.unlink",
+        "line": 362
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::removeFile",
+        "target": "fsp.unlink(objectPath(session.dir, entry.id)).catch",
+        "line": 362
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::resolveEntry",
+        "target": "listEntries(session).filter",
+        "line": 254
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::saveManifest",
+        "target": "JSON.stringify",
+        "line": 139
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::saveManifest",
+        "target": "fsp.writeFile",
+        "line": 142
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::unlockWithKek",
+        "target": "check.toString",
+        "line": 214
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::vaultStatus",
+        "target": "(await fsp.readdir(objectsDir(dir))).filter",
+        "line": 241
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::vaultStatus",
+        "target": "f.endsWith",
+        "line": 241
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::src::vault.mjs::vaultStatus",
+        "target": "fsp.readdir",
+        "line": 241
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::test::vault.test.mjs",
+        "target": "assert.deepEqual",
+        "line": 68
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::test::vault.test.mjs",
+        "target": "assert.equal",
+        "line": 32
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::test::vault.test.mjs",
+        "target": "assert.rejects",
+        "line": 40
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::test::vault.test.mjs",
+        "target": "n.includes",
+        "line": 103
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::test::vault.test.mjs",
+        "target": "names.some",
+        "line": 103
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::test::vault.test.mjs",
+        "target": "test",
+        "line": 29
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::test::vault.test.mjs::b",
+        "target": "recoveryKey.replaceAll",
+        "line": 47
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::test::vault.test.mjs::b",
+        "target": "recoveryKey.replaceAll('-', ' ').toLowerCase",
+        "line": 47
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::test::vault.test.mjs::tmpVault",
+        "target": "fsp.mkdtemp",
+        "line": 16
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::test::vault.test.mjs::tmpVault",
+        "target": "fsp.rm",
+        "line": 17
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::test::vault.test.mjs::tmpVault",
+        "target": "os.tmpdir",
+        "line": 16
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::test::vault.test.mjs::tmpVault",
+        "target": "t.after",
+        "line": 17
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::test::vault.test.mjs::walk",
+        "target": "assert.ok",
+        "line": 97
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::test::vault.test.mjs::walk",
+        "target": "bytes.includes",
+        "line": 97
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::test::vault.test.mjs::walk",
+        "target": "e.isDirectory",
+        "line": 94
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::test::vault.test.mjs::walk",
+        "target": "names.push",
+        "line": 92
+      }
+    },
+    {
+      "Cycle": {
+        "edge_kind": "calls",
+        "cycle": [
+          "vault-folder::test::vault.test.mjs::walk"
+        ]
+      }
+    }
+  ]
+}
