@@ -4,7 +4,7 @@
   "profile_version": "1.0.0",
   "graph_class": "truths",
   "provenance_summary": {
-    "extracted_truth": 478
+    "extracted_truth": 502
   },
   "nodes": [
     {
@@ -368,6 +368,18 @@
       "refs": []
     },
     {
+      "id": "external::cd",
+      "kind": "external",
+      "label": "cd",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
       "id": "external::check.toString",
       "kind": "external",
       "label": "check.toString",
@@ -419,6 +431,18 @@
       "id": "external::cipher.update",
       "kind": "external",
       "label": "cipher.update",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::codetopo",
+      "kind": "external",
+      "label": "codetopo",
       "loc": {
         "file": "",
         "line": 0
@@ -560,6 +584,18 @@
       "refs": []
     },
     {
+      "id": "external::dirname",
+      "kind": "external",
+      "label": "dirname",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
       "id": "external::dst.close",
       "kind": "external",
       "label": "dst.close",
@@ -587,6 +623,18 @@
       "id": "external::e.isDirectory",
       "kind": "external",
       "label": "e.isDirectory",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::echo",
+      "kind": "external",
+      "label": "echo",
       "loc": {
         "file": "",
         "line": 0
@@ -896,6 +944,30 @@
       "refs": []
     },
     {
+      "id": "external::mkdir",
+      "kind": "external",
+      "label": "mkdir",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::mktemp",
+      "kind": "external",
+      "label": "mktemp",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
       "id": "external::n.includes",
       "kind": "external",
       "label": "n.includes",
@@ -1148,6 +1220,30 @@
       "refs": []
     },
     {
+      "id": "external::pwd",
+      "kind": "external",
+      "label": "pwd",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::python3",
+      "kind": "external",
+      "label": "python3",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
       "id": "external::randomBytes",
       "kind": "external",
       "label": "randomBytes",
@@ -1247,6 +1343,18 @@
       "id": "external::rest.includes",
       "kind": "external",
       "label": "rest.includes",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::set",
+      "kind": "external",
+      "label": "set",
       "loc": {
         "file": "",
         "line": 0
@@ -1412,9 +1520,33 @@
       "refs": []
     },
     {
+      "id": "external::tar",
+      "kind": "external",
+      "label": "tar",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
       "id": "external::test",
       "kind": "external",
       "label": "test",
+      "loc": {
+        "file": "",
+        "line": 0
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "external::true",
+      "kind": "external",
+      "label": "true",
       "loc": {
         "file": "",
         "line": 0
@@ -1537,6 +1669,30 @@
       "label": "bin/vaultfolder.mjs",
       "loc": {
         "file": "bin/vaultfolder.mjs",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::/docs/codetopo-profile/PROFILE.md",
+      "kind": "file",
+      "label": "docs/codetopo-profile/PROFILE.md",
+      "loc": {
+        "file": "docs/codetopo-profile/PROFILE.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::/docs/codetopo-profile/refresh.sh",
+      "kind": "file",
+      "label": "docs/codetopo-profile/refresh.sh",
+      "loc": {
+        "file": "docs/codetopo-profile/refresh.sh",
         "line": 1
       },
       "tier": "core",
@@ -1845,6 +2001,104 @@
       "end_line": 79,
       "signature": "async function unlock(dir, useRecovery)",
       "decisions": 3
+    },
+    {
+      "id": "vault-folder::docs::codetopo-profile::PROFILE",
+      "kind": "module",
+      "label": "vault-folder::docs::codetopo-profile::PROFILE",
+      "loc": {
+        "file": "docs/codetopo-profile/PROFILE.md",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::docs::codetopo-profile::PROFILE::PROFILE",
+      "kind": "doc",
+      "label": "PROFILE",
+      "loc": {
+        "file": "docs/codetopo-profile/PROFILE.md",
+        "line": 1
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::docs::codetopo-profile::refresh",
+      "kind": "module",
+      "label": "vault-folder::docs::codetopo-profile::refresh",
+      "loc": {
+        "file": "docs/codetopo-profile/refresh.sh",
+        "line": 1
+      },
+      "tier": "core",
+      "defines": [],
+      "refs": []
+    },
+    {
+      "id": "vault-folder::docs::codetopo-profile::refresh::HERE",
+      "kind": "variable",
+      "label": "HERE",
+      "loc": {
+        "file": "docs/codetopo-profile/refresh.sh",
+        "line": 8
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "cd",
+        "dirname",
+        "pwd"
+      ],
+      "end_line": 8,
+      "signature": "HERE"
+    },
+    {
+      "id": "vault-folder::docs::codetopo-profile::refresh::PYTHONPATH",
+      "kind": "variable",
+      "label": "PYTHONPATH",
+      "loc": {
+        "file": "docs/codetopo-profile/refresh.sh",
+        "line": 10
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 10,
+      "signature": "PYTHONPATH"
+    },
+    {
+      "id": "vault-folder::docs::codetopo-profile::refresh::REF",
+      "kind": "variable",
+      "label": "REF",
+      "loc": {
+        "file": "docs/codetopo-profile/refresh.sh",
+        "line": 7
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [],
+      "end_line": 7,
+      "signature": "REF"
+    },
+    {
+      "id": "vault-folder::docs::codetopo-profile::refresh::WORK",
+      "kind": "variable",
+      "label": "WORK",
+      "loc": {
+        "file": "docs/codetopo-profile/refresh.sh",
+        "line": 9
+      },
+      "tier": "optional",
+      "defines": [],
+      "refs": [
+        "mktemp"
+      ],
+      "end_line": 9,
+      "signature": "WORK"
     },
     {
       "id": "vault-folder::src::vault.mjs",
@@ -3079,6 +3333,18 @@
     },
     {
       "from": "vault-folder",
+      "to": "vault-folder::docs::codetopo-profile::PROFILE",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder",
+      "to": "vault-folder::docs::codetopo-profile::refresh",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder",
       "to": "vault-folder::src::vault.mjs",
       "kind": "contains",
       "attrs": {}
@@ -3146,6 +3412,36 @@
     {
       "from": "vault-folder::/bin/vaultfolder.mjs",
       "to": "vault-folder::bin::vaultfolder.mjs::unlock",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/docs/codetopo-profile/PROFILE.md",
+      "to": "vault-folder::docs::codetopo-profile::PROFILE::PROFILE",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/docs/codetopo-profile/refresh.sh",
+      "to": "vault-folder::docs::codetopo-profile::refresh::HERE",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/docs/codetopo-profile/refresh.sh",
+      "to": "vault-folder::docs::codetopo-profile::refresh::PYTHONPATH",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/docs/codetopo-profile/refresh.sh",
+      "to": "vault-folder::docs::codetopo-profile::refresh::REF",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::/docs/codetopo-profile/refresh.sh",
+      "to": "vault-folder::docs::codetopo-profile::refresh::WORK",
       "kind": "contains",
       "attrs": {}
     },
@@ -4085,6 +4381,123 @@
       "to": "vault-folder::src::vault.mjs::unlockWithRecovery",
       "kind": "reads",
       "line": 72,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::docs::codetopo-profile::PROFILE",
+      "to": "vault-folder::/docs/codetopo-profile/PROFILE.md",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::docs::codetopo-profile::refresh",
+      "to": "external::cd",
+      "kind": "calls",
+      "line": 8,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::docs::codetopo-profile::refresh",
+      "to": "external::codetopo",
+      "kind": "calls",
+      "line": 14,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::docs::codetopo-profile::refresh",
+      "to": "external::dirname",
+      "kind": "calls",
+      "line": 8,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::docs::codetopo-profile::refresh",
+      "to": "external::echo",
+      "kind": "calls",
+      "line": 18,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::docs::codetopo-profile::refresh",
+      "to": "external::mkdir",
+      "kind": "calls",
+      "line": 13,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::docs::codetopo-profile::refresh",
+      "to": "external::mktemp",
+      "kind": "calls",
+      "line": 9,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::docs::codetopo-profile::refresh",
+      "to": "external::pwd",
+      "kind": "calls",
+      "line": 8,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::docs::codetopo-profile::refresh",
+      "to": "external::python3",
+      "kind": "calls",
+      "line": 11,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::docs::codetopo-profile::refresh",
+      "to": "external::set",
+      "kind": "calls",
+      "line": 6,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::docs::codetopo-profile::refresh",
+      "to": "external::tar",
+      "kind": "calls",
+      "line": 13,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::docs::codetopo-profile::refresh",
+      "to": "external::true",
+      "kind": "calls",
+      "line": 16,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::docs::codetopo-profile::refresh",
+      "to": "vault-folder::/docs/codetopo-profile/refresh.sh",
+      "kind": "contains",
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::docs::codetopo-profile::refresh::HERE",
+      "to": "external::cd",
+      "kind": "reads",
+      "line": 8,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::docs::codetopo-profile::refresh::HERE",
+      "to": "external::dirname",
+      "kind": "reads",
+      "line": 8,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::docs::codetopo-profile::refresh::HERE",
+      "to": "external::pwd",
+      "kind": "reads",
+      "line": 8,
+      "attrs": {}
+    },
+    {
+      "from": "vault-folder::docs::codetopo-profile::refresh::WORK",
+      "to": "external::mktemp",
+      "kind": "reads",
+      "line": 9,
       "attrs": {}
     },
     {
@@ -6381,31 +6794,31 @@
       "attrs": {}
     }
   ],
-  "audit_head": "36c5fbbf8f8bc0f10772c06b7003e20494073c6766c36ad6cd2d520539a6f842",
+  "audit_head": "7d318bf77f9053dafe5bfd6a7580f433aea6bc3584543400db610bacd78404d4",
   "audit_log": [
     {
       "seq": 0,
-      "ts": "1795021586",
+      "ts": "1795134959",
       "op": "genesis",
       "payload": "{}",
       "prev_hash": "GENESIS",
-      "hash": "cf5594a716615914152229491b218dd7fe8571e7e23819e74d297b70ec94682d"
+      "hash": "b85954e46dc3564bbb6b6eafae3210903043913f6360348246e6b442d70cc069"
     },
     {
       "seq": 1,
-      "ts": "1795021586",
+      "ts": "1795134959",
       "op": "index_started",
-      "payload": "{\"package\":\"vault-folder\",\"repo\":\"/home/hatch/workspace/codetopo-work/PROFILES-GM-GATE-2026-11-18/work/vault-folder\"}",
-      "prev_hash": "cf5594a716615914152229491b218dd7fe8571e7e23819e74d297b70ec94682d",
-      "hash": "4d013f5d727577f1222ccfe7955bb625ee1de0097f8a40ff99cb431c7386ff2a"
+      "payload": "{\"package\":\"vault-folder\",\"repo\":\"/home/hatch/workspace/codetopo-work/EXTRACTOR-PROGRAM-2026-11-19/reprofile/work/vault-folder\"}",
+      "prev_hash": "b85954e46dc3564bbb6b6eafae3210903043913f6360348246e6b442d70cc069",
+      "hash": "1e04a763dd07c0a1ee5cd60d8c7cdfa8b1d21a9c628e4a34b37cfb84685ed501"
     },
     {
       "seq": 2,
-      "ts": "1795021586",
+      "ts": "1795134959",
       "op": "index_finished",
-      "payload": "{\"diagnostics\":128,\"edges\":478,\"files_failed\":0,\"files_indexed\":8,\"nodes\":204}",
-      "prev_hash": "4d013f5d727577f1222ccfe7955bb625ee1de0097f8a40ff99cb431c7386ff2a",
-      "hash": "36c5fbbf8f8bc0f10772c06b7003e20494073c6766c36ad6cd2d520539a6f842"
+      "payload": "{\"diagnostics\":139,\"edges\":502,\"files_failed\":0,\"files_indexed\":10,\"nodes\":224}",
+      "prev_hash": "1e04a763dd07c0a1ee5cd60d8c7cdfa8b1d21a9c628e4a34b37cfb84685ed501",
+      "hash": "7d318bf77f9053dafe5bfd6a7580f433aea6bc3584543400db610bacd78404d4"
     }
   ],
   "diagnostics": [
@@ -6819,6 +7232,83 @@
         "from": "vault-folder::bin::vaultfolder.mjs::promptSecret",
         "target": "value.slice",
         "line": 52
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::docs::codetopo-profile::refresh",
+        "target": "cd",
+        "line": 8
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::docs::codetopo-profile::refresh",
+        "target": "codetopo",
+        "line": 14
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::docs::codetopo-profile::refresh",
+        "target": "dirname",
+        "line": 8
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::docs::codetopo-profile::refresh",
+        "target": "echo",
+        "line": 18
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::docs::codetopo-profile::refresh",
+        "target": "mkdir",
+        "line": 13
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::docs::codetopo-profile::refresh",
+        "target": "mktemp",
+        "line": 9
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::docs::codetopo-profile::refresh",
+        "target": "pwd",
+        "line": 8
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::docs::codetopo-profile::refresh",
+        "target": "python3",
+        "line": 11
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::docs::codetopo-profile::refresh",
+        "target": "set",
+        "line": 6
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::docs::codetopo-profile::refresh",
+        "target": "tar",
+        "line": 13
+      }
+    },
+    {
+      "UnresolvedCall": {
+        "from": "vault-folder::docs::codetopo-profile::refresh",
+        "target": "true",
+        "line": 16
       }
     },
     {

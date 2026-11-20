@@ -7,16 +7,17 @@ submits or changes anything. Read this first; the graph snapshot beside it
 (`snapshot.json`, `stats.json`) is the measured evidence.
 
 - **Repo:** nrupala/vault-folder
-- **Commit profiled:** `a72caa0c5a6a2f0ecd56887a7856820342171098` (main)
-- **Engine:** codetopo 0.9.1 · index run 2026-11-18
-- **Graph:** 8 files walked · 0 failed · 204 nodes · 478 edges · audit chain valid (3 entries, head `36c5fbbf…6f842`)
-- **Nodes by kind:** external 121 · variable 32 · function 27 · file 8 · module 8 · doc 5 · class 1 · method 1 · package 1
-- **Edges by kind:** calls 248 · reads 113 · contains 82 · defines 21 · imports 14
+- **Commit profiled:** `000710ecbfd3b29d34ce63e4e378ace3176f091f` (main)
+- **Engine:** codetopo 0.9.1 + full-language program (engine built from codetopo main `d71509d1` — all sixteen program extractors merged) · index run 2026-11-19
+- **Graph:** 10 files walked · 0 failed · 224 nodes · 502 edges · audit chain valid (3 entries, head `7d318bf7…04d4`)
+- **Nodes by kind:** external 132 · variable 36 · function 27 · file 10 · module 10 · doc 6 · class 1 · method 1 · package 1
+- **Edges by kind:** calls 259 · reads 117 · contains 91 · defines 21 · imports 14
 
 ## Coverage honesty
 
-Codetopo extracts Rust, TypeScript/JavaScript and Python, plus Markdown as Doc nodes. This repo is tiny and entirely covered in kind: 3 `.mjs` files are the whole codebase (JavaScript extraction), and the 5 Markdown files are indexed as Doc nodes. `docs/index.html` and `package.json` are not parsed into the graph. There is no other code language in this repo — no Swift/Java/Ruby or any native scaffolding — so symbol coverage of the codebase is complete.
+**Re-profiled 2026-11-19** with the full-language engine (Codetopo extractor program, 2026-11-18 ruling): every language this repo is written in is now extracted at symbol level. First profile: 2026-11-18 (Codetopo 0.9.1).
 
+Codetopo now extracts every language in the full-language program (Rust, TypeScript/JavaScript, Python, Kotlin, C, Java, Go, Shell, C++, Swift, Ruby, R, Julia, C#, PHP, Scala, Haskell, Elixir, Lua), plus Markdown as Doc nodes. This repo is tiny and entirely covered in kind: 3 `.mjs` files are the whole codebase (JavaScript extraction), and the Markdown files are indexed as Doc nodes. `docs/index.html` and `package.json` are not parsed into the graph. There is no other code language in this repo — no Swift/Java/Ruby or any native scaffolding — so symbol coverage of the codebase is complete.
 ## Topology
 
 A zero-dependency Node CLI/library that turns an ordinary (possibly cloud-synced) folder into a zero-knowledge vault (README).
